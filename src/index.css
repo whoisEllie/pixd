@@ -163,6 +163,9 @@ input:focus {
 	overflow: hidden;
 	display: grid;
 	place-items: end stretch;
+	background-size: cover;
+	background-repeat: no-repeat;
+	image-rendering: pixelated;
 }
 .swatch:hover {
 	border-color: var(--accent);

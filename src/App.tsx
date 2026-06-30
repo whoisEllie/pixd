@@ -12,7 +12,7 @@ const SHORTCUTS: Record<string, Tool> = { b: "pencil", e: "eraser", g: "fill", l
 export default function App() {
 	const ed = useEditor(32, 32)
 	const [tool, setTool] = useState<Tool>("pencil")
-	const [currentBlockId, setCurrentBlockId] = useState(4) // Grass Block
+	const [currentBlockId, setCurrentBlockId] = useState(2) // Dirt
 	const [brushHeight, setBrushHeight] = useState(1)
 	const [hover, setHover] = useState<HoverInfo | null>(null)
 	const [lastExport, setLastExport] = useState<string | null>(null)

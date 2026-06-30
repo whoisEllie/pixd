@@ -1,15 +1,10 @@
-import paletteJson from "../data/blockPalette.json"
+import { BLOCKS, type CuratedBlock } from "../data/blocks"
 
-export interface PaletteBlock {
-	id: number
-	name: string
-	color: [number, number, number]
-	harvestType?: string
-}
+// The palette is the curated, hand-maintained list in data/blocks.ts. Air (id 0) is the
+// eraser and is not in this list.
+export type PaletteBlock = CuratedBlock
 
-// Block ids and colours are extracted from the bloxd repo (blockMetadata + texture
-// atlas). Order is by ascending block id. Air (id 0) is the eraser, not in this list.
-export const PALETTE: PaletteBlock[] = paletteJson as PaletteBlock[]
+export const PALETTE: PaletteBlock[] = BLOCKS
 
 export const PALETTE_BY_ID: ReadonlyMap<number, PaletteBlock> = new Map(PALETTE.map((b) => [b.id, b]))
 

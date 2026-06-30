@@ -2,6 +2,7 @@ import { useCallback, useEffect, useLayoutEffect, useRef } from "react"
 import { cloneGrid, type EditorGrid, type Tool } from "../editor/types"
 import { floodFill, paintCell, paintLine, paintRect } from "../editor/gridOps"
 import { PALETTE_BY_ID, rgbCss } from "../schem/palette"
+import { getBlockImage, onTexturesChanged } from "../schem/textures"
 
 export interface HoverInfo {
 	gx: number
@@ -68,6 +69,7 @@ export function CanvasGrid({ grid, tool, currentBlockId, brushHeight, onCommit, 
 		ctx.clearRect(0, 0, w, h)
 		ctx.fillStyle = "#1b1d22"
 		ctx.fillRect(0, 0, w, h)
+		ctx.imageSmoothingEnabled = false // crisp, pixelated block textures
 
 		// Visible cell range only — keeps large grids fast when zoomed in.
 		const minGx = Math.max(0, Math.floor(-panX / cellPx))
@@ -85,8 +87,13 @@ export function CanvasGrid({ grid, tool, currentBlockId, brushHeight, onCommit, 
 					ctx.fillStyle = (gx + gz) & 1 ? "#2a2d34" : "#23262c"
 					ctx.fillRect(px, py, cellPx, cellPx)
 				} else {
-					ctx.fillStyle = cssFor(id)
-					ctx.fillRect(px, py, cellPx, cellPx)
+					const img = cellPx >= 3 ? getBlockImage(id) : undefined
+					if (img) {
+						ctx.drawImage(img, px, py, cellPx, cellPx)
+					} else {
+						ctx.fillStyle = cssFor(id)
+						ctx.fillRect(px, py, cellPx, cellPx)
+					}
 					const ht = g.heights[i]
 					if (ht > 1 && cellPx >= 14) {
 						ctx.fillStyle = "rgba(0,0,0,0.55)"
@@ -166,6 +173,9 @@ export function CanvasGrid({ grid, tool, currentBlockId, brushHeight, onCommit, 
 	useEffect(() => {
 		scheduleDraw()
 	}, [grid, scheduleDraw])
+
+	// Redraw as block textures finish decoding.
+	useEffect(() => onTexturesChanged(scheduleDraw), [scheduleDraw])
 
 	useEffect(() => {
 		const onKey = (e: KeyboardEvent) => {

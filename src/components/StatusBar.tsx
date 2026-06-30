@@ -14,7 +14,7 @@ interface Props {
 
 function nameFor(id: number): string {
 	if (id === 0) return "Air"
-	return PALETTE_BY_ID.get(id)?.name ?? `id ${id}`
+	return PALETTE_BY_ID.get(id)?.label ?? `id ${id}`
 }
 
 export function StatusBar({ hover, currentBlockId, brushHeight, width, depth, maxHeight, totalBlocks, lastExport }: Props) {

@@ -11,7 +11,9 @@ export function PalettePanel({ currentBlockId, onSelect }: Props) {
 	const filtered = useMemo(() => {
 		const q = query.trim().toLowerCase()
 		if (!q) return PALETTE
-		return PALETTE.filter((b) => b.name.toLowerCase().includes(q) || String(b.id) === q)
+		return PALETTE.filter(
+			(b) => b.label.toLowerCase().includes(q) || b.name.toLowerCase().includes(q) || String(b.id) === q,
+		)
 	}, [query])
 
 	return (
@@ -29,11 +31,15 @@ export function PalettePanel({ currentBlockId, onSelect }: Props) {
 					<button
 						key={b.id}
 						className={`swatch${b.id === currentBlockId ? " selected" : ""}`}
-						style={{ background: rgbCss(b.color), color: contrastText(b.color) }}
-						title={`${b.name} (id ${b.id})`}
+						style={{
+							backgroundColor: rgbCss(b.color),
+							backgroundImage: b.textureUrl ? `url(${b.textureUrl})` : undefined,
+							color: contrastText(b.color),
+						}}
+						title={`${b.label} — ${b.name} (id ${b.id})`}
 						onClick={() => onSelect(b.id)}
 					>
-						<span className="swatch-label">{b.name}</span>
+						<span className="swatch-label">{b.label}</span>
 					</button>
 				))}
 				{filtered.length === 0 && <div className="palette-empty">No blocks match “{query}”.</div>}
