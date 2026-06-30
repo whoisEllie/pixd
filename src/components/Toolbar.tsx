@@ -47,7 +47,7 @@ export function Toolbar(props: Props) {
 	return (
 		<header className="toolbar">
 			<div className="tb-group tb-brand">
-				<strong>Bloxd Schem Editor</strong>
+				<strong>Pixd</strong>
 			</div>
 
 			<div className="tb-group">
@@ -116,7 +116,7 @@ export function Toolbar(props: Props) {
 			</div>
 
 			<div className="tb-group tb-right">
-				<button onClick={props.onSaveProject} title="Save editable project (.bsep.json)">
+				<button onClick={props.onSaveProject} title="Save editable project (.pixd.json)">
 					Save
 				</button>
 				<button onClick={() => fileRef.current?.click()} title="Load a saved project">
@@ -125,7 +125,7 @@ export function Toolbar(props: Props) {
 				<input
 					ref={fileRef}
 					type="file"
-					accept=".json,.bsep.json"
+					accept=".json,.pixd.json"
 					style={{ display: "none" }}
 					onChange={(e) => {
 						const f = e.target.files?.[0]

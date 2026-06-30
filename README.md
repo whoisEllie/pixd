@@ -1,6 +1,6 @@
-# Bloxd Schem Editor
+# Pixd
 
-An MS-Paint / Aseprite-style web tool for drawing voxel maps on a pixel grid and
+**Pixel → bloxd.** An MS-Paint / Aseprite-style web tool for drawing voxel maps on a pixel grid and
 exporting them as **`.bloxdschem`** files for [bloxd](https://bloxd.io) map testing.
 
 Each pixel is one block on a top-down floor plane (X·Z). Paint with the full block

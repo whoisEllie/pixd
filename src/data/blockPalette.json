@@ -1,1 +1,3265 @@
-[{"id":2,"name":"Dirt","color":[134,93,73],"harvestType":"granule"},{"id":3,"name":"Messy Dirt","color":[116,76,59],"harvestType":"granule"},{"id":4,"name":"Grass Block","color":[104,163,78],"harvestType":"granule"},{"id":5,"name":"Sand","color":[224,212,168],"harvestType":"granule"},{"id":6,"name":"Clay","color":[165,175,184],"harvestType":"granule"},{"id":7,"name":"Gravel","color":[126,127,128],"harvestType":"granule"},{"id":8,"name":"Snow","color":[230,235,235],"harvestType":"granule"},{"id":9,"name":"Maple Log","color":[129,95,58],"harvestType":"wood"},{"id":10,"name":"Pine Log","color":[66,43,24],"harvestType":"wood"},{"id":11,"name":"Plum Log","color":[93,85,76],"harvestType":"wood"},{"id":12,"name":"Cedar Log","color":[58,44,24],"harvestType":"wood"},{"id":13,"name":"Aspen Log","color":[188,185,161],"harvestType":"wood"},{"id":14,"name":"Jungle Log","color":[97,78,23],"harvestType":"wood"},{"id":15,"name":"Maple Wood Planks","color":[170,137,82],"harvestType":"wood"},{"id":16,"name":"Aspen Wood Planks","color":[193,173,123],"harvestType":"wood"},{"id":17,"name":"Plum Wood Planks","color":[168,92,46],"harvestType":"wood"},{"id":18,"name":"Jungle Wood Planks","color":[160,118,82],"harvestType":"wood"},{"id":19,"name":"Pine Wood Planks","color":[116,85,49],"harvestType":"wood"},{"id":20,"name":"Cedar Wood Planks","color":[76,48,23],"harvestType":"wood"},{"id":21,"name":"Barkless Maple Log","color":[168,134,81],"harvestType":"wood"},{"id":22,"name":"Barkless Aspen Log","color":[190,169,120],"harvestType":"wood"},{"id":23,"name":"Barkless Plum Log","color":[164,88,45],"harvestType":"wood"},{"id":24,"name":"Barkless Jungle Log","color":[158,114,79],"harvestType":"wood"},{"id":25,"name":"Barkless Pine Log","color":[115,84,48],"harvestType":"wood"},{"id":26,"name":"Barkless Cedar Log","color":[74,46,22],"harvestType":"wood"},{"id":27,"name":"free_placeholder2","color":[133,129,129],"harvestType":"rock"},{"id":28,"name":"Stone","color":[150,147,147],"harvestType":"rock"},{"id":29,"name":"Messy Stone","color":[133,129,129],"harvestType":"rock"},{"id":30,"name":"free_placeholder","color":[133,129,129],"harvestType":"rock"},{"id":31,"name":"Smooth Stone","color":[143,139,139],"harvestType":"rock"},{"id":32,"name":"Diorite","color":[210,206,202],"harvestType":"rock"},{"id":33,"name":"Smooth Diorite","color":[200,195,191],"harvestType":"rock"},{"id":34,"name":"Andesite","color":[131,135,139],"harvestType":"rock"},{"id":35,"name":"Smooth Andesite","color":[127,130,135],"harvestType":"rock"},{"id":36,"name":"Granite","color":[156,106,88],"harvestType":"rock"},{"id":37,"name":"Smooth Granite","color":[154,103,84],"harvestType":"rock"},{"id":38,"name":"Sandstone","color":[221,206,163],"harvestType":"rock"},{"id":39,"name":"Yellowstone","color":[234,234,168],"harvestType":"rock"},{"id":40,"name":"Coal Ore","color":[115,113,113],"harvestType":"rock"},{"id":41,"name":"Iron Ore","color":[159,152,144],"harvestType":"rock"},{"id":42,"name":"Gold Ore","color":[165,151,111],"harvestType":"rock"},{"id":43,"name":"Lapis Lazuli Ore","color":[116,119,135],"harvestType":"rock"},{"id":44,"name":"Emerald Ore","color":[118,159,129],"harvestType":"rock"},{"id":45,"name":"Diamond Ore","color":[119,160,151],"harvestType":"rock"},{"id":46,"name":"Block of Coal","color":[19,19,19],"harvestType":"rock"},{"id":47,"name":"Block of Iron","color":[235,232,227],"harvestType":"rock"},{"id":48,"name":"Block of Gold","color":[248,209,63],"harvestType":"rock"},{"id":49,"name":"Block of Lapis Lazuli","color":[48,111,186],"harvestType":"rock"},{"id":50,"name":"Block of Emerald","color":[45,217,106],"harvestType":"rock"},{"id":51,"name":"White Wool","color":[239,240,241],"harvestType":"cuttable"},{"id":52,"name":"Orange Wool","color":[246,123,25],"harvestType":"cuttable"},{"id":53,"name":"Magenta Wool","color":[195,70,182],"harvestType":"cuttable"},{"id":54,"name":"Light Blue Wool","color":[57,184,223],"harvestType":"cuttable"},{"id":55,"name":"Yellow Wool","color":[252,203,50],"harvestType":"cuttable"},{"id":56,"name":"Lime Wool","color":[122,192,27],"harvestType":"cuttable"},{"id":57,"name":"Pink Wool","color":[248,146,178],"harvestType":"cuttable"},{"id":58,"name":"Gray Wool","color":[67,73,77],"harvestType":"cuttable"},{"id":59,"name":"Light Gray Wool","color":[147,147,141],"harvestType":"cuttable"},{"id":60,"name":"Cyan Wool","color":[23,144,149],"harvestType":"cuttable"},{"id":61,"name":"Purple Wool","color":[127,42,176],"harvestType":"cuttable"},{"id":62,"name":"Blue Wool","color":[55,61,160],"harvestType":"cuttable"},{"id":63,"name":"Brown Wool","color":[118,75,42],"harvestType":"cuttable"},{"id":64,"name":"Green Wool","color":[89,113,30],"harvestType":"cuttable"},{"id":65,"name":"Red Wool","color":[166,40,35],"harvestType":"cuttable"},{"id":66,"name":"Black Wool","color":[24,25,30],"harvestType":"cuttable"},{"id":67,"name":"Baked Clay","color":[150,93,67],"harvestType":"rock"},{"id":68,"name":"White Baked Clay","color":[210,177,161],"harvestType":"rock"},{"id":69,"name":"Orange Baked Clay","color":[162,83,38],"harvestType":"rock"},{"id":70,"name":"Magenta Baked Clay","color":[149,87,108],"harvestType":"rock"},{"id":71,"name":"Light Blue Baked Clay","color":[112,108,138],"harvestType":"rock"},{"id":72,"name":"Yellow Baked Clay","color":[186,133,36],"harvestType":"rock"},{"id":73,"name":"Lime Baked Clay","color":[103,117,53],"harvestType":"rock"},{"id":74,"name":"Pink Baked Clay","color":[162,78,79],"harvestType":"rock"},{"id":75,"name":"Gray Baked Clay","color":[58,42,36],"harvestType":"rock"},{"id":76,"name":"Light Gray Baked Clay","color":[135,107,98],"harvestType":"rock"},{"id":77,"name":"Cyan Baked Clay","color":[85,90,90],"harvestType":"rock"},{"id":78,"name":"Purple Baked Clay","color":[118,70,86],"harvestType":"rock"},{"id":79,"name":"Blue Baked Clay","color":[73,59,91],"harvestType":"rock"},{"id":80,"name":"Brown Baked Clay","color":[77,50,35],"harvestType":"rock"},{"id":81,"name":"Green Baked Clay","color":[75,82,40],"harvestType":"rock"},{"id":82,"name":"Red Baked Clay","color":[142,61,47],"harvestType":"rock"},{"id":83,"name":"Black Baked Clay","color":[36,21,15],"harvestType":"rock"},{"id":84,"name":"Gray Concrete","color":[55,58,62],"harvestType":"rock"},{"id":85,"name":"Light Gray Concrete","color":[125,125,115],"harvestType":"rock"},{"id":86,"name":"Black Concrete","color":[9,11,16],"harvestType":"rock"},{"id":87,"name":"Blue Concrete","color":[45,47,144],"harvestType":"rock"},{"id":88,"name":"Brown Concrete","color":[97,60,32],"harvestType":"rock"},{"id":89,"name":"Cyan Concrete","color":[21,119,135],"harvestType":"rock"},{"id":90,"name":"Light Blue Concrete","color":[37,138,200],"harvestType":"rock"},{"id":91,"name":"Lime Concrete","color":[95,170,25],"harvestType":"rock"},{"id":92,"name":"Magenta Concrete","color":[169,48,159],"harvestType":"rock"},{"id":93,"name":"Orange Concrete","color":[225,97,0],"harvestType":"rock"},{"id":94,"name":"Pink Concrete","color":[214,101,143],"harvestType":"rock"},{"id":95,"name":"Purple Concrete","color":[101,32,157],"harvestType":"rock"},{"id":96,"name":"Red Concrete","color":[143,33,33],"harvestType":"rock"},{"id":97,"name":"White Concrete","color":[208,214,215],"harvestType":"rock"},{"id":98,"name":"Green Concrete","color":[73,91,36],"harvestType":"rock"},{"id":99,"name":"Yellow Concrete","color":[242,176,21],"harvestType":"rock"},{"id":100,"name":"Pine Leaves","color":[26,48,14],"harvestType":"cuttable"},{"id":101,"name":"Aspen Leaves","color":[52,122,24],"harvestType":"cuttable"},{"id":102,"name":"Maple Leaves","color":[50,92,30],"harvestType":"cuttable"},{"id":103,"name":"Jungle Leaves","color":[41,136,12],"harvestType":"cuttable"},{"id":104,"name":"Pumpkin_placeholder","color":[198,133,45],"harvestType":"wood"},{"id":105,"name":"Watermelon","color":[129,157,29],"harvestType":"wood"},{"id":106,"name":"Glass","color":[185,223,221],"harvestType":"wood"},{"id":107,"name":"Black Glass","color":[28,29,32],"harvestType":"wood"},{"id":108,"name":"Blue Glass","color":[97,133,213],"harvestType":"wood"},{"id":109,"name":"Brown Glass","color":[153,119,94],"harvestType":"wood"},{"id":110,"name":"Cyan Glass","color":[41,140,157],"harvestType":"wood"},{"id":111,"name":"Gray Glass","color":[91,95,99],"harvestType":"wood"},{"id":112,"name":"Light Gray Glass","color":[172,177,182],"harvestType":"wood"},{"id":113,"name":"Green Glass","color":[106,125,66],"harvestType":"wood"},{"id":114,"name":"Light Blue Glass","color":[127,184,244],"harvestType":"wood"},{"id":115,"name":"Lime Glass","color":[181,226,139],"harvestType":"wood"},{"id":116,"name":"Magenta Glass","color":[186,73,177],"harvestType":"wood"},{"id":117,"name":"Orange Glass","color":[245,148,75],"harvestType":"wood"},{"id":118,"name":"Pink Glass","color":[242,150,184],"harvestType":"wood"},{"id":119,"name":"Purple Glass","color":[123,61,173],"harvestType":"wood"},{"id":120,"name":"Red Glass","color":[169,59,59],"harvestType":"wood"},{"id":121,"name":"White Glass","color":[241,242,243],"harvestType":"wood"},{"id":122,"name":"Yellow Glass","color":[249,211,122],"harvestType":"wood"},{"id":123,"name":"UNUSED BLOCK TYPE","color":[161,161,161],"harvestType":"wood"},{"id":124,"name":"Dim Lamp On","color":[125,85,45],"harvestType":"rock"},{"id":125,"name":"Dim Lamp Off","color":[75,39,11],"harvestType":"rock"},{"id":126,"name":"Water","color":[127,127,204],"harvestType":"rock"},{"id":128,"name":"Bricks","color":[150,99,84],"harvestType":"rock"},{"id":129,"name":"Stone Bricks","color":[135,131,131],"harvestType":"rock"},{"id":130,"name":"Dark Red Brick","color":[68,34,39],"harvestType":"rock"},{"id":131,"name":"Dark Red Stone","color":[101,46,43],"harvestType":"rock"},{"id":132,"name":"Block of Quartz","color":[251,248,239],"harvestType":"rock"},{"id":133,"name":"Chiseled Block of Quartz","color":[241,235,224],"harvestType":"rock"},{"id":134,"name":"Engraved Stone","color":[125,121,121],"harvestType":"rock"},{"id":135,"name":"Mossy Stone Bricks","color":[128,129,118],"harvestType":"rock"},{"id":136,"name":"Cracked Stone Bricks","color":[132,128,128],"harvestType":"rock"},{"id":137,"name":"Smooth Sandstone","color":[230,222,177],"harvestType":"rock"},{"id":138,"name":"Engraved Sandstone","color":[222,208,164],"harvestType":"rock"},{"id":139,"name":"Ice","color":[140,209,254],"harvestType":"rock"},{"id":140,"name":"Obsidian","color":[29,18,44],"harvestType":"rock"},{"id":141,"name":"Hay Bale","color":[181,132,33],"harvestType":"cuttable"},{"id":142,"name":"Sponge","color":[186,175,56],"harvestType":"granule"},{"id":143,"name":"Beacon","color":[210,243,251],"harvestType":"rock"},{"id":145,"name":"Golden Decoration","color":[179,138,92],"harvestType":"rock"},{"id":146,"name":"Moonstone Explosive","color":[208,215,243],"harvestType":"cuttable"},{"id":147,"name":"Bedrock","color":[34,34,35]},{"id":148,"name":"Smooth Double Stone Slab","color":[143,139,139],"harvestType":"rock"},{"id":164,"name":"Furnace","color":[107,103,103],"harvestType":"rock"},{"id":168,"name":"Workbench","color":[134,99,63],"harvestType":"wood"},{"id":172,"name":"Block of Diamond","color":[70,211,203],"harvestType":"rock"},{"id":204,"name":"Chest","color":[197,154,94],"harvestType":"wood"},{"id":212,"name":"Protector","color":[128,136,133],"harvestType":"rock"},{"id":213,"name":"Fat Cactus","color":[104,165,46],"harvestType":"cuttable"},{"id":214,"name":"Dry Fat Cactus","color":[140,96,40],"harvestType":"cuttable"},{"id":228,"name":"White Planks","color":[246,238,223],"harvestType":"wood"},{"id":229,"name":"Orange Planks","color":[205,122,64],"harvestType":"wood"},{"id":230,"name":"Magenta Planks","color":[153,76,123],"harvestType":"wood"},{"id":231,"name":"Light Blue Planks","color":[81,149,166],"harvestType":"wood"},{"id":232,"name":"Yellow Planks","color":[214,178,79],"harvestType":"wood"},{"id":233,"name":"Lime Planks","color":[150,169,83],"harvestType":"wood"},{"id":234,"name":"Pink Planks","color":[192,120,146],"harvestType":"wood"},{"id":235,"name":"Gray Planks","color":[79,75,69],"harvestType":"wood"},{"id":236,"name":"Light Gray Planks","color":[148,142,133],"harvestType":"wood"},{"id":237,"name":"Cyan Planks","color":[101,167,167],"harvestType":"wood"},{"id":238,"name":"Purple Planks","color":[145,108,167],"harvestType":"wood"},{"id":239,"name":"Blue Planks","color":[83,90,169],"harvestType":"wood"},{"id":240,"name":"Brown Planks","color":[127,91,63],"harvestType":"wood"},{"id":241,"name":"Green Planks","color":[99,113,57],"harvestType":"wood"},{"id":242,"name":"Red Planks","color":[167,70,66],"harvestType":"wood"},{"id":243,"name":"Black Planks","color":[36,33,29],"harvestType":"wood"},{"id":244,"name":"Artisan Bench","color":[117,92,78],"harvestType":"wood"},{"id":245,"name":"White Ceramic","color":[187,216,200],"harvestType":"rock"},{"id":249,"name":"Orange Ceramic","color":[159,153,96],"harvestType":"rock"},{"id":253,"name":"Magenta Ceramic","color":[215,115,196],"harvestType":"rock"},{"id":257,"name":"Light Blue Ceramic","color":[112,168,209],"harvestType":"rock"},{"id":261,"name":"Yellow Ceramic","color":[234,193,88],"harvestType":"rock"},{"id":265,"name":"Lime Ceramic","color":[163,202,66],"harvestType":"rock"},{"id":269,"name":"Pink Ceramic","color":[234,160,184],"harvestType":"rock"},{"id":273,"name":"Gray Ceramic","color":[85,92,95],"harvestType":"rock"},{"id":277,"name":"Light Gray Ceramic","color":[126,158,160],"harvestType":"rock"},{"id":281,"name":"Cyan Ceramic","color":[60,120,128],"harvestType":"rock"},{"id":285,"name":"Purple Ceramic","color":[106,48,145],"harvestType":"rock"},{"id":289,"name":"Blue Ceramic","color":[36,70,133],"harvestType":"rock"},{"id":293,"name":"Brown Ceramic","color":[135,114,93],"harvestType":"rock"},{"id":297,"name":"Green Ceramic","color":[116,140,68],"harvestType":"rock"},{"id":301,"name":"Red Ceramic","color":[182,60,53],"harvestType":"rock"},{"id":305,"name":"Black Ceramic","color":[77,29,31],"harvestType":"rock"},{"id":317,"name":"Tilled Soil","color":[160,108,71],"harvestType":"granule"},{"id":318,"name":"Bread Block","color":[178,122,33],"harvestType":"cuttable"},{"id":319,"name":"ReservedBread BlockRotation1","color":[178,122,33],"harvestType":"cuttable"},{"id":320,"name":"ReservedBread BlockRotation2","color":[178,122,33],"harvestType":"cuttable"},{"id":321,"name":"ReservedBread BlockRotation3","color":[178,122,33],"harvestType":"cuttable"},{"id":322,"name":"Mossy Messy Stone","color":[121,124,109],"harvestType":"rock"},{"id":464,"name":"Apple Block","color":[175,40,37],"harvestType":"wood"},{"id":465,"name":"Moonstone Ore","color":[159,157,164],"harvestType":"rock"},{"id":466,"name":"Moonstone Chest","color":[215,221,245],"harvestType":"rock"},{"id":470,"name":"Block of Moonstone","color":[195,205,238],"harvestType":"rock"},{"id":471,"name":"Magma","color":[152,67,32],"harvestType":"rock"},{"id":472,"name":"Useless Soil","color":[101,67,24],"harvestType":"granule"},{"id":473,"name":"Marked Sandstone","color":[225,214,170],"harvestType":"rock"},{"id":474,"name":"Red Sandstone","color":[195,97,32],"harvestType":"rock"},{"id":475,"name":"Smooth Red Sandstone","color":[203,110,36],"harvestType":"rock"},{"id":476,"name":"Engraved Red Sandstone","color":[196,101,33],"harvestType":"rock"},{"id":477,"name":"Marked Red Sandstone","color":[199,105,34],"harvestType":"rock"},{"id":478,"name":"Green Stone","color":[108,167,148],"harvestType":"rock"},{"id":479,"name":"Green Bricks","color":[83,159,144],"harvestType":"rock"},{"id":480,"name":"Dark Green Bricks","color":[53,119,97],"harvestType":"rock"},{"id":481,"name":"Sandstone Bricks","color":[223,211,167],"harvestType":"rock"},{"id":482,"name":"Engraved Diorite","color":[232,230,225],"harvestType":"rock"},{"id":483,"name":"Diorite Bricks","color":[231,229,224],"harvestType":"rock"},{"id":484,"name":"Engraved Andesite","color":[112,116,122],"harvestType":"rock"},{"id":485,"name":"Andesite Bricks","color":[120,124,129],"harvestType":"rock"},{"id":486,"name":"Engraved Granite","color":[145,95,78],"harvestType":"rock"},{"id":487,"name":"Granite Bricks","color":[148,98,80],"harvestType":"rock"},{"id":488,"name":"Ice Bricks","color":[167,217,247],"harvestType":"rock"},{"id":489,"name":"Placeholder Packed Ice","color":[167,217,247],"harvestType":"rock"},{"id":490,"name":"Placeholder Blue Ice","color":[167,217,247],"harvestType":"rock"},{"id":491,"name":"Plum Leaves","color":[52,103,45],"harvestType":"cuttable"},{"id":492,"name":"Cedar Leaves","color":[33,61,18],"harvestType":"cuttable"},{"id":493,"name":"Palm Leaves","color":[80,164,54],"harvestType":"cuttable"},{"id":502,"name":"Palm Log","color":[95,88,46],"harvestType":"wood"},{"id":504,"name":"Palm Wood Planks","color":[210,150,71],"harvestType":"wood"},{"id":650,"name":"Red Sand","color":[198,101,33],"harvestType":"granule"},{"id":651,"name":"Red Sandstone Bricks","color":[197,103,34],"harvestType":"rock"},{"id":652,"name":"Rocky Dirt","color":[131,95,78],"harvestType":"granule"},{"id":653,"name":"Autumn Maple Leaves","color":[191,114,32],"harvestType":"cuttable"},{"id":907,"name":"Plum Block","color":[154,31,154],"harvestType":"wood"},{"id":908,"name":"Coconut Block","color":[129,96,43],"harvestType":"wood"},{"id":909,"name":"Pear Log","color":[101,101,101],"harvestType":"wood"},{"id":910,"name":"Pear Wood Planks","color":[133,102,91],"harvestType":"wood"},{"id":911,"name":"Pear Leaves","color":[232,242,218],"harvestType":"cuttable"},{"id":945,"name":"Pear Block","color":[248,233,77],"harvestType":"wood"},{"id":946,"name":"Compressed Messy Stone","color":[101,101,101],"harvestType":"rock"},{"id":947,"name":"Extra Compressed Messy Stone","color":[94,94,94],"harvestType":"rock"},{"id":948,"name":"Super Compressed Messy Stone","color":[71,71,71],"harvestType":"rock"},{"id":949,"name":"Hyper Compressed Messy Stone","color":[66,66,66],"harvestType":"rock"},{"id":950,"name":"Ultra Compressed Messy Stone","color":[57,57,57],"harvestType":"rock"},{"id":951,"name":"Mega Compressed Messy Stone","color":[49,49,49],"harvestType":"rock"},{"id":958,"name":"Brown Mushroom Block","color":[193,151,119],"harvestType":"cuttable"},{"id":959,"name":"Red Mushroom Block","color":[227,82,67],"harvestType":"cuttable"},{"id":960,"name":"Mushroom Stem","color":[204,197,186],"harvestType":"cuttable"},{"id":961,"name":"Fireball Block","color":[245,103,27],"harvestType":"rock"},{"id":962,"name":"Iceball Block","color":[27,163,244],"harvestType":"rock"},{"id":975,"name":"Pumpkin","color":[182,102,17],"harvestType":"wood"},{"id":976,"name":"Carved Pumpkin","color":[182,102,17],"harvestType":"wood"},{"id":980,"name":"Jack o'Lantern","color":[182,102,17],"harvestType":"wood"},{"id":990,"name":"Melon","color":[241,234,99],"harvestType":"wood"},{"id":991,"name":"Iron Watermelon","color":[233,230,225],"harvestType":"rock"},{"id":992,"name":"Patterned Black Glass","color":[29,38,45],"harvestType":"wood"},{"id":993,"name":"Patterned Blue Glass","color":[85,125,212],"harvestType":"wood"},{"id":994,"name":"Patterned Brown Glass","color":[123,82,51],"harvestType":"wood"},{"id":995,"name":"Patterned Cyan Glass","color":[83,167,181],"harvestType":"wood"},{"id":996,"name":"Patterned Gray Glass","color":[82,87,90],"harvestType":"wood"},{"id":997,"name":"Patterned Light Gray Glass","color":[173,177,184],"harvestType":"wood"},{"id":998,"name":"Patterned Green Glass","color":[119,127,51],"harvestType":"wood"},{"id":999,"name":"Patterned Light Blue Glass","color":[144,193,245],"harvestType":"wood"},{"id":1000,"name":"Patterned Lime Glass","color":[157,215,102],"harvestType":"wood"},{"id":1001,"name":"Patterned Magenta Glass","color":[167,72,160],"harvestType":"wood"},{"id":1002,"name":"Patterned Orange Glass","color":[229,124,43],"harvestType":"wood"},{"id":1003,"name":"Patterned Pink Glass","color":[245,174,200],"harvestType":"wood"},{"id":1004,"name":"Patterned Purple Glass","color":[111,50,161],"harvestType":"wood"},{"id":1005,"name":"Patterned Red Glass","color":[178,58,58],"harvestType":"wood"},{"id":1006,"name":"Patterned White Glass","color":[247,247,248],"harvestType":"wood"},{"id":1007,"name":"Patterned Yellow Glass","color":[249,208,112],"harvestType":"wood"},{"id":1056,"name":"Bookshelf","color":[170,137,82],"harvestType":"wood"},{"id":1060,"name":"Empty Bookshelf","color":[170,137,82],"harvestType":"wood"},{"id":1084,"name":"Mailbox","color":[118,82,54],"harvestType":"wood"},{"id":1108,"name":"Tribe Protector","color":[140,136,137],"harvestType":"rock"},{"id":1111,"name":"Faction Protector","color":[208,87,84],"harvestType":"rock"},{"id":1112,"name":"Barkless Palm Log","color":[207,148,70],"harvestType":"wood"},{"id":1113,"name":"Barkless Pear Log","color":[129,97,86],"harvestType":"wood"},{"id":1122,"name":"Mystery Block","color":[237,200,91],"harvestType":"rock"},{"id":1123,"name":"Rocket","color":[76,111,59],"harvestType":"rock"},{"id":1124,"name":"Super Rocket","color":[113,63,47],"harvestType":"rock"},{"id":1221,"name":"Grenade","color":[63,66,125],"harvestType":"rock"},{"id":1222,"name":"Cherry Log","color":[58,37,49],"harvestType":"wood"},{"id":1223,"name":"Barkless Cherry Log","color":[227,184,181],"harvestType":"wood"},{"id":1225,"name":"Cherry Wood Planks","color":[229,187,183],"harvestType":"wood"},{"id":1226,"name":"Cherry Leaves","color":[246,186,220],"harvestType":"cuttable"},{"id":1270,"name":"Cherry Block","color":[230,79,155],"harvestType":"wood"},{"id":1271,"name":"Bouncy Bomb Block","color":[196,59,196],"harvestType":"rock"},{"id":1272,"name":"Obby Rocket","color":[76,111,59],"harvestType":"rock"},{"id":1279,"name":"Corn Block","color":[240,213,35],"harvestType":"wood"},{"id":1291,"name":"Loot Chest","color":[197,154,94],"harvestType":"wood"},{"id":1295,"name":"Melting Ice","color":[140,209,254],"harvestType":"rock"},{"id":1297,"name":"Yellow Paintball Explosive","color":[226,176,66],"harvestType":"cuttable"},{"id":1298,"name":"White Paintball Explosive","color":[200,205,211],"harvestType":"cuttable"},{"id":1299,"name":"Red Paintball Explosive","color":[151,69,75],"harvestType":"cuttable"},{"id":1300,"name":"Purple Paintball Explosive","color":[120,68,168],"harvestType":"cuttable"},{"id":1301,"name":"Pink Paintball Explosive","color":[205,120,157],"harvestType":"cuttable"},{"id":1302,"name":"Orange Paintball Explosive","color":[213,117,50],"harvestType":"cuttable"},{"id":1303,"name":"Magenta Paintball Explosive","color":[171,80,169],"harvestType":"cuttable"},{"id":1304,"name":"Lime Paintball Explosive","color":[115,172,69],"harvestType":"cuttable"},{"id":1305,"name":"Light Gray Paintball Explosive","color":[138,138,136],"harvestType":"cuttable"},{"id":1306,"name":"Light Blue Paintball Explosive","color":[72,148,200],"harvestType":"cuttable"},{"id":1307,"name":"Green Paintball Explosive","color":[99,113,77],"harvestType":"cuttable"},{"id":1308,"name":"Gray Paintball Explosive","color":[85,88,96],"harvestType":"cuttable"},{"id":1309,"name":"Cyan Paintball Explosive","color":[60,134,151],"harvestType":"cuttable"},{"id":1310,"name":"Brown Paintball Explosive","color":[117,89,74],"harvestType":"cuttable"},{"id":1311,"name":"Blue Paintball Explosive","color":[78,80,158],"harvestType":"cuttable"},{"id":1312,"name":"Black Paintball Explosive","color":[51,53,62],"harvestType":"cuttable"},{"id":1313,"name":"Yellow Quick Paintball Explosive","color":[214,172,62],"harvestType":"cuttable"},{"id":1314,"name":"White Quick Paintball Explosive","color":[198,200,205],"harvestType":"cuttable"},{"id":1315,"name":"Red Quick Paintball Explosive","color":[146,56,58],"harvestType":"cuttable"},{"id":1316,"name":"Purple Quick Paintball Explosive","color":[115,56,158],"harvestType":"cuttable"},{"id":1317,"name":"Pink Quick Paintball Explosive","color":[202,122,154],"harvestType":"cuttable"},{"id":1318,"name":"Orange Quick Paintball Explosive","color":[206,113,43],"harvestType":"cuttable"},{"id":1319,"name":"Magenta Quick Paintball Explosive","color":[166,73,161],"harvestType":"cuttable"},{"id":1320,"name":"Lime Quick Paintball Explosive","color":[112,166,52],"harvestType":"cuttable"},{"id":1321,"name":"Light Gray Quick Paintball Explosive","color":[131,131,129],"harvestType":"cuttable"},{"id":1322,"name":"Light Blue Quick Paintball Explosive","color":[63,150,192],"harvestType":"cuttable"},{"id":1323,"name":"Green Quick Paintball Explosive","color":[90,106,58],"harvestType":"cuttable"},{"id":1324,"name":"Gray Quick Paintball Explosive","color":[75,79,85],"harvestType":"cuttable"},{"id":1325,"name":"Cyan Quick Paintball Explosive","color":[45,129,139],"harvestType":"cuttable"},{"id":1326,"name":"Brown Quick Paintball Explosive","color":[110,80,60],"harvestType":"cuttable"},{"id":1327,"name":"Blue Quick Paintball Explosive","color":[66,70,147],"harvestType":"cuttable"},{"id":1328,"name":"Black Quick Paintball Explosive","color":[41,43,50],"harvestType":"cuttable"},{"id":1329,"name":"Yellow Seeking Paintball Explosive","color":[244,183,29],"harvestType":"cuttable"},{"id":1330,"name":"White Seeking Paintball Explosive","color":[216,221,222],"harvestType":"cuttable"},{"id":1331,"name":"Red Seeking Paintball Explosive","color":[149,35,34],"harvestType":"cuttable"},{"id":1332,"name":"Purple Seeking Paintball Explosive","color":[108,34,162],"harvestType":"cuttable"},{"id":1333,"name":"Pink Seeking Paintball Explosive","color":[222,111,151],"harvestType":"cuttable"},{"id":1334,"name":"Orange Seeking Paintball Explosive","color":[230,104,6],"harvestType":"cuttable"},{"id":1335,"name":"Magenta Seeking Paintball Explosive","color":[175,53,165],"harvestType":"cuttable"},{"id":1336,"name":"Lime Seeking Paintball Explosive","color":[102,176,26],"harvestType":"cuttable"},{"id":1337,"name":"Light Gray Seeking Paintball Explosive","color":[130,130,121],"harvestType":"cuttable"},{"id":1338,"name":"Light Blue Seeking Paintball Explosive","color":[41,149,206],"harvestType":"cuttable"},{"id":1339,"name":"Green Seeking Paintball Explosive","color":[77,96,35],"harvestType":"cuttable"},{"id":1340,"name":"Gray Seeking Paintball Explosive","color":[58,62,66],"harvestType":"cuttable"},{"id":1341,"name":"Cyan Seeking Paintball Explosive","color":[22,125,139],"harvestType":"cuttable"},{"id":1342,"name":"Brown Seeking Paintball Explosive","color":[102,64,34],"harvestType":"cuttable"},{"id":1343,"name":"Blue Seeking Paintball Explosive","color":[47,51,148],"harvestType":"cuttable"},{"id":1344,"name":"Black Seeking Paintball Explosive","color":[13,15,20],"harvestType":"cuttable"},{"id":1345,"name":"Yellow Sticky Paintball Explosive","color":[232,183,72],"harvestType":"cuttable"},{"id":1346,"name":"White Sticky Paintball Explosive","color":[211,207,193],"harvestType":"cuttable"},{"id":1347,"name":"Red Sticky Paintball Explosive","color":[170,94,79],"harvestType":"cuttable"},{"id":1348,"name":"Purple Sticky Paintball Explosive","color":[144,93,157],"harvestType":"cuttable"},{"id":1349,"name":"Pink Sticky Paintball Explosive","color":[215,136,148],"harvestType":"cuttable"},{"id":1350,"name":"Orange Sticky Paintball Explosive","color":[221,134,59],"harvestType":"cuttable"},{"id":1351,"name":"Magenta Sticky Paintball Explosive","color":[186,103,158],"harvestType":"cuttable"},{"id":1352,"name":"Lime Sticky Paintball Explosive","color":[140,180,74],"harvestType":"cuttable"},{"id":1353,"name":"Light Gray Sticky Paintball Explosive","color":[159,151,130],"harvestType":"cuttable"},{"id":1354,"name":"Light Blue Sticky Paintball Explosive","color":[104,160,184],"harvestType":"cuttable"},{"id":1355,"name":"Green Sticky Paintball Explosive","color":[126,130,81],"harvestType":"cuttable"},{"id":1356,"name":"Gray Sticky Paintball Explosive","color":[115,110,97],"harvestType":"cuttable"},{"id":1357,"name":"Cyan Sticky Paintball Explosive","color":[94,148,143],"harvestType":"cuttable"},{"id":1358,"name":"Brown Sticky Paintball Explosive","color":[141,111,79],"harvestType":"cuttable"},{"id":1359,"name":"Blue Sticky Paintball Explosive","color":[109,103,149],"harvestType":"cuttable"},{"id":1360,"name":"Black Sticky Paintball Explosive","color":[86,80,69],"harvestType":"cuttable"},{"id":1491,"name":"Lava","color":[242,102,12],"harvestType":"rock"},{"id":1494,"name":"Chili Pepper Block","color":[197,16,14],"harvestType":"wood"},{"id":1510,"name":"Code Block","color":[168,118,94]},{"id":1511,"name":"Toxin Ball Block","color":[13,155,87],"harvestType":"rock"},{"id":1512,"name":"Spawn Block (Yellow)","color":[255,215,82],"harvestType":"rock"},{"id":1513,"name":"Spawn Block (White)","color":[236,236,236],"harvestType":"rock"},{"id":1514,"name":"Spawn Block (Red)","color":[198,67,60],"harvestType":"rock"},{"id":1515,"name":"Spawn Block (Purple)","color":[157,68,203],"harvestType":"rock"},{"id":1516,"name":"Spawn Block (Pink)","color":[254,164,194],"harvestType":"rock"},{"id":1517,"name":"Spawn Block (Orange)","color":[253,145,54],"harvestType":"rock"},{"id":1518,"name":"Spawn Block (Magenta)","color":[218,94,204],"harvestType":"rock"},{"id":1519,"name":"Spawn Block (Lime)","color":[152,217,52],"harvestType":"rock"},{"id":1520,"name":"Spawn Block (Light Gray)","color":[175,175,171],"harvestType":"rock"},{"id":1521,"name":"Spawn Block (Light Blue)","color":[78,204,237],"harvestType":"rock"},{"id":1522,"name":"Spawn Block (Green)","color":[112,136,49],"harvestType":"rock"},{"id":1523,"name":"Spawn Block (Gray)","color":[85,91,95],"harvestType":"rock"},{"id":1524,"name":"Spawn Block (Cyan)","color":[46,174,175],"harvestType":"rock"},{"id":1525,"name":"Spawn Block (Brown)","color":[142,98,61],"harvestType":"rock"},{"id":1526,"name":"Spawn Block (Blue)","color":[81,91,189],"harvestType":"rock"},{"id":1527,"name":"Spawn Block (Black)","color":[39,41,46],"harvestType":"rock"},{"id":1576,"name":"Checkpoint Block","color":[98,235,70],"harvestType":"rock"},{"id":1580,"name":"Custom Lobby Block","color":[0,72,72],"harvestType":"rock"},{"id":1584,"name":"Generator Spawn Block (Red)","color":[211,80,73],"harvestType":"rock"},{"id":1585,"name":"Generator Spawn Block (Blue)","color":[94,104,202],"harvestType":"rock"},{"id":1586,"name":"Generator Spawn Block (Lime)","color":[162,225,64],"harvestType":"rock"},{"id":1587,"name":"Generator Spawn Block (Yellow)","color":[255,217,92],"harvestType":"rock"},{"id":1588,"name":"Generator Spawn Block (Cyan)","color":[58,186,187],"harvestType":"rock"},{"id":1589,"name":"Generator Spawn Block (White)","color":[228,228,228],"harvestType":"rock"},{"id":1590,"name":"Generator Spawn Block (Pink)","color":[254,169,198],"harvestType":"rock"},{"id":1591,"name":"Generator Spawn Block (Gray)","color":[91,97,101],"harvestType":"rock"},{"id":1592,"name":"Trader Shop Spawn Block","color":[100,80,43],"harvestType":"rock"},{"id":1596,"name":"Wizard Shop Spawn Block","color":[98,136,150],"harvestType":"rock"},{"id":1600,"name":"Generator Spawn Block (Diamond)","color":[48,201,197],"harvestType":"rock"},{"id":1601,"name":"Generator Spawn Block (Moonstone)","color":[197,209,234],"harvestType":"rock"},{"id":1602,"name":"Generator Spawn Block (Ore)","color":[127,140,133],"harvestType":"rock"},{"id":1603,"name":"Goal Block (Red)","color":[151,69,75],"harvestType":"rock"},{"id":1604,"name":"Goal Block (Blue)","color":[78,80,158],"harvestType":"rock"},{"id":1605,"name":"Finish Block","color":[128,128,128],"harvestType":"rock"},{"id":1606,"name":"Drop Location Block","color":[55,55,114],"harvestType":"rock"},{"id":1607,"name":"Obby Death Block","color":[149,40,40],"harvestType":"rock"},{"id":1608,"name":"Obby Absorb Block","color":[38,38,38],"harvestType":"rock"},{"id":1609,"name":"Obby Absorb Death Block","color":[64,40,148],"harvestType":"rock"},{"id":1610,"name":"Bone Block","color":[207,214,205],"harvestType":"rock"},{"id":1611,"name":"Pig Spawner Block","color":[58,82,101],"harvestType":"rock"},{"id":1612,"name":"Cow Spawner Block","color":[58,82,101],"harvestType":"rock"},{"id":1613,"name":"Sheep Spawner Block","color":[58,82,101],"harvestType":"rock"},{"id":1614,"name":"Cave Golem Spawner Block","color":[58,82,101],"harvestType":"rock"},{"id":1615,"name":"Draugr Zombie Spawner Block","color":[58,82,101],"harvestType":"rock"},{"id":1616,"name":"Draugr Skeleton Spawner Block","color":[58,82,101],"harvestType":"rock"},{"id":1617,"name":"Empty Spawner Block","color":[58,82,101],"harvestType":"rock"},{"id":1618,"name":"Frost Golem Spawner Block","color":[58,82,101],"harvestType":"rock"},{"id":1619,"name":"Frost Zombie Spawner Block","color":[58,82,101],"harvestType":"rock"},{"id":1620,"name":"Frost Skeleton Spawner Block","color":[58,82,101],"harvestType":"rock"},{"id":1621,"name":"Snowy Messy Stone","color":[161,166,167],"harvestType":"rock"},{"id":1628,"name":"Draugr Knight Spawner Block","color":[58,82,101],"harvestType":"rock"},{"id":1629,"name":"Packed Snow","color":[187,218,218],"harvestType":"granule"},{"id":1630,"name":"Carved Messy Stone","color":[121,116,116],"harvestType":"rock"},{"id":1632,"name":"Spectral Log","color":[58,57,81],"harvestType":"wood"},{"id":1633,"name":"Barkless Spectral Log","color":[50,148,139],"harvestType":"wood"},{"id":1635,"name":"Spectral Wood Planks","color":[51,151,141],"harvestType":"wood"},{"id":1636,"name":"Spectral Leaves","color":[24,141,144],"harvestType":"cuttable"},{"id":1694,"name":"Pine Grass Block","color":[92,153,107],"harvestType":"granule"},{"id":1704,"name":"Pine Cone Block","color":[144,99,50],"harvestType":"wood"},{"id":1705,"name":"Wolf Spawner Block","color":[58,82,101],"harvestType":"rock"},{"id":1706,"name":"Bear Spawner Block","color":[58,82,101],"harvestType":"rock"},{"id":1707,"name":"Deer Spawner Block","color":[58,82,101],"harvestType":"rock"},{"id":1708,"name":"Stag Spawner Block","color":[58,82,101],"harvestType":"rock"},{"id":1717,"name":"Gold Watermelon Stag Spawner Block","color":[58,82,101],"harvestType":"rock"},{"id":1722,"name":"Chalk","color":[248,250,250],"harvestType":"rock"},{"id":1723,"name":"Yellow Chalk","color":[252,244,180],"harvestType":"rock"},{"id":1724,"name":"White Chalk","color":[225,247,248],"harvestType":"rock"},{"id":1725,"name":"Red Chalk","color":[242,133,135],"harvestType":"rock"},{"id":1726,"name":"Purple Chalk","color":[192,155,200],"harvestType":"rock"},{"id":1727,"name":"Pink Chalk","color":[247,173,198],"harvestType":"rock"},{"id":1728,"name":"Orange Chalk","color":[242,160,133],"harvestType":"rock"},{"id":1729,"name":"Magenta Chalk","color":[230,163,224],"harvestType":"rock"},{"id":1730,"name":"Lime Chalk","color":[172,210,149],"harvestType":"rock"},{"id":1731,"name":"Light Gray Chalk","color":[182,206,204],"harvestType":"rock"},{"id":1732,"name":"Light Blue Chalk","color":[160,196,231],"harvestType":"rock"},{"id":1733,"name":"Green Chalk","color":[158,179,147],"harvestType":"rock"},{"id":1734,"name":"Gray Chalk","color":[111,128,138],"harvestType":"rock"},{"id":1735,"name":"Cyan Chalk","color":[172,219,210],"harvestType":"rock"},{"id":1736,"name":"Brown Chalk","color":[182,164,151],"harvestType":"rock"},{"id":1737,"name":"Blue Chalk","color":[131,167,222],"harvestType":"rock"},{"id":1738,"name":"Black Chalk","color":[43,57,67],"harvestType":"rock"},{"id":1739,"name":"Yellow Chalk Bricks","color":[243,234,157],"harvestType":"rock"},{"id":1740,"name":"White Chalk Bricks","color":[209,235,236],"harvestType":"rock"},{"id":1741,"name":"Red Chalk Bricks","color":[239,116,118],"harvestType":"rock"},{"id":1742,"name":"Purple Chalk Bricks","color":[181,140,190],"harvestType":"rock"},{"id":1743,"name":"Pink Chalk Bricks","color":[243,157,186],"harvestType":"rock"},{"id":1744,"name":"Orange Chalk Bricks","color":[239,146,115],"harvestType":"rock"},{"id":1745,"name":"Magenta Chalk Bricks","color":[224,146,217],"harvestType":"rock"},{"id":1746,"name":"Lime Chalk Bricks","color":[160,203,134],"harvestType":"rock"},{"id":1747,"name":"Light Gray Chalk Bricks","color":[169,193,191],"harvestType":"rock"},{"id":1748,"name":"Light Blue Chalk Bricks","color":[142,185,227],"harvestType":"rock"},{"id":1749,"name":"Green Chalk Bricks","color":[145,169,133],"harvestType":"rock"},{"id":1750,"name":"Gray Chalk Bricks","color":[101,117,127],"harvestType":"rock"},{"id":1751,"name":"Cyan Chalk Bricks","color":[153,213,201],"harvestType":"rock"},{"id":1752,"name":"Brown Chalk Bricks","color":[172,150,134],"harvestType":"rock"},{"id":1753,"name":"Blue Chalk Bricks","color":[113,154,217],"harvestType":"rock"},{"id":1754,"name":"Black Chalk Bricks","color":[37,50,59],"harvestType":"rock"},{"id":1955,"name":"Jungle Grass Block","color":[16,148,9],"harvestType":"granule"},{"id":1965,"name":"Mango Log","color":[84,76,73],"harvestType":"wood"},{"id":1966,"name":"Barkless Mango Log","color":[205,191,106],"harvestType":"wood"},{"id":1968,"name":"Mango Wood Planks","color":[207,193,109],"harvestType":"wood"},{"id":1969,"name":"Mango Leaves","color":[43,115,59],"harvestType":"cuttable"},{"id":2007,"name":"Mango Block","color":[238,136,28],"harvestType":"wood"},{"id":2008,"name":"Banana Block","color":[235,218,123],"harvestType":"wood"},{"id":2017,"name":"Gorilla Spawner Block","color":[58,82,101],"harvestType":"rock"},{"id":2018,"name":"Wildcat Spawner Block","color":[58,82,101],"harvestType":"rock"},{"id":2019,"name":"Fruity Maple Leaves","color":[95,74,31],"harvestType":"cuttable"},{"id":2020,"name":"Pine Cone Leaves","color":[44,50,19],"harvestType":"cuttable"},{"id":2021,"name":"Fruity Plum Leaves","color":[66,92,60],"harvestType":"cuttable"},{"id":2022,"name":"Fruity Palm Leaves","color":[92,143,50],"harvestType":"cuttable"},{"id":2023,"name":"Fruity Pear Leaves","color":[233,233,182],"harvestType":"cuttable"},{"id":2024,"name":"Fruity Cherry Leaves","color":[246,170,211],"harvestType":"cuttable"},{"id":2025,"name":"Fruity Mango Leaves","color":[91,128,58],"harvestType":"cuttable"},{"id":2026,"name":"Draugr Huntress Spawner Block","color":[58,82,101],"harvestType":"rock"},{"id":2027,"name":"Magma Golem Spawner Block","color":[58,82,101],"harvestType":"rock"},{"id":2028,"name":"Black Portal","color":[31,33,40],"harvestType":"rock"},{"id":2029,"name":"Blue Portal","color":[68,74,170],"harvestType":"rock"},{"id":2030,"name":"Brown Portal","color":[132,86,46],"harvestType":"rock"},{"id":2031,"name":"Cyan Portal","color":[25,161,163],"harvestType":"rock"},{"id":2032,"name":"Gray Portal","color":[75,82,86],"harvestType":"rock"},{"id":2033,"name":"Green Portal","color":[95,129,34],"harvestType":"rock"},{"id":2034,"name":"Grey Portal","color":[75,82,86],"harvestType":"rock"},{"id":2035,"name":"Light Blue Portal","color":[76,186,219],"harvestType":"rock"},{"id":2036,"name":"Light Gray Portal","color":[151,152,145],"harvestType":"rock"},{"id":2037,"name":"Lime Portal","color":[119,198,40],"harvestType":"rock"},{"id":2038,"name":"Magenta Portal","color":[193,84,181],"harvestType":"rock"},{"id":2039,"name":"Orange Portal","color":[242,133,41],"harvestType":"rock"},{"id":2040,"name":"Pink Portal","color":[244,155,180],"harvestType":"rock"},{"id":2041,"name":"Purple Portal","color":[138,55,184],"harvestType":"rock"},{"id":2042,"name":"Red Portal","color":[217,101,76],"harvestType":"rock"},{"id":2043,"name":"White Portal","color":[218,222,223],"harvestType":"rock"},{"id":2044,"name":"Yellow Portal","color":[249,207,58],"harvestType":"rock"},{"id":2045,"name":"Leather Block","color":[116,82,59],"harvestType":"cuttable"},{"id":2046,"name":"Horse Spawner Block","color":[58,82,101],"harvestType":"rock"},{"id":2085,"name":"Autumn Aspen Leaves","color":[245,208,9],"harvestType":"cuttable"},{"id":2088,"name":"Iron Chest","color":[231,228,223],"harvestType":"rock"},{"id":2092,"name":"Crate","color":[171,137,83],"harvestType":"wood"},{"id":2093,"name":"Carrot Block","color":[205,118,14],"harvestType":"wood"},{"id":2095,"name":"Potato Block","color":[189,144,67],"harvestType":"wood"},{"id":2097,"name":"Beetroot Block","color":[128,60,62],"harvestType":"wood"},{"id":2507,"name":"Spirit Golem Spawner Block","color":[58,82,101],"harvestType":"rock"},{"id":2508,"name":"Spirit Wolf Spawner Block","color":[58,82,101],"harvestType":"rock"},{"id":2509,"name":"Spirit Bear Spawner Block","color":[58,82,101],"harvestType":"rock"},{"id":2510,"name":"Spirit Stag Spawner Block","color":[58,82,101],"harvestType":"rock"},{"id":2511,"name":"Spirit Gorilla Spawner Block","color":[58,82,101],"harvestType":"rock"},{"id":2512,"name":"Fertilised Soil","color":[143,89,49],"harvestType":"granule"},{"id":2625,"name":"Hollow Crate","color":[171,137,83],"harvestType":"wood"},{"id":2626,"name":"Draugr Warper Spawner Block","color":[58,82,101],"harvestType":"rock"},{"id":2627,"name":"Radar","color":[111,139,79],"harvestType":"rock"},{"id":2631,"name":"_Radar Back","color":[103,109,118],"harvestType":"rock"},{"id":2639,"name":"Inactive Radar","color":[142,145,150],"harvestType":"rock"},{"id":2643,"name":"_Inactive Radar Back","color":[103,109,118],"harvestType":"rock"},{"id":2651,"name":"Active Radar","color":[118,145,81],"harvestType":"rock"},{"id":2655,"name":"_Active Radar Back","color":[103,109,118],"harvestType":"rock"},{"id":2663,"name":"Lucky Block","color":[252,197,104],"harvestType":"rock"},{"id":2664,"name":"Ultra Lucky Block","color":[89,214,207],"harvestType":"rock"},{"id":2679,"name":"Frost Wraith Spawner Block","color":[58,82,101],"harvestType":"rock"},{"id":2680,"name":"Draugr Reaver Spawner Block","color":[58,82,101],"harvestType":"rock"},{"id":2780,"name":"Weapon Lucky Block","color":[219,78,78],"harvestType":"rock"},{"id":3009,"name":"Yellow Neon","color":[254,213,78],"harvestType":"granule"},{"id":3010,"name":"White Neon","color":[249,250,250],"harvestType":"granule"},{"id":3011,"name":"Red Neon","color":[182,45,38],"harvestType":"granule"},{"id":3012,"name":"Purple Neon","color":[138,46,189],"harvestType":"granule"},{"id":3013,"name":"Pink Neon","color":[253,163,192],"harvestType":"granule"},{"id":3014,"name":"Orange Neon","color":[252,138,44],"harvestType":"granule"},{"id":3015,"name":"Magenta Neon","color":[208,76,194],"harvestType":"granule"},{"id":3016,"name":"Lime Neon","color":[135,207,30],"harvestType":"granule"},{"id":3017,"name":"Light Gray Neon","color":[160,160,154],"harvestType":"granule"},{"id":3018,"name":"Light Blue Neon","color":[62,199,238],"harvestType":"granule"},{"id":3019,"name":"Green Neon","color":[99,125,33],"harvestType":"granule"},{"id":3020,"name":"Gray Neon","color":[78,84,89],"harvestType":"granule"},{"id":3021,"name":"Cyan Neon","color":[26,158,160],"harvestType":"granule"},{"id":3022,"name":"Brown Neon","color":[131,84,46],"harvestType":"granule"},{"id":3023,"name":"Blue Neon","color":[62,71,176],"harvestType":"granule"},{"id":3024,"name":"Black Neon","color":[34,36,42],"harvestType":"granule"},{"id":3049,"name":"Gun Lucky Block","color":[219,78,78],"harvestType":"rock"},{"id":3050,"name":"Ghost Chest","color":[120,120,120],"harvestType":"wood"},{"id":3051,"name":"Ghost Lucky Block","color":[152,152,152],"harvestType":"rock"},{"id":3052,"name":"Ghost Mystery Block","color":[150,150,150],"harvestType":"rock"},{"id":3054,"name":"Pet Lucky Block","color":[247,125,181],"harvestType":"rock"},{"id":3071,"name":"Overgrown Grass Block","color":[104,163,78],"harvestType":"granule"},{"id":3072,"name":"Overgrown Pine Grass Block","color":[92,153,107],"harvestType":"granule"},{"id":3073,"name":"Overgrown Jungle Grass Block","color":[16,148,9],"harvestType":"granule"},{"id":3074,"name":"Smoke Block","color":[122,124,137],"harvestType":"cuttable"},{"id":3117,"name":"Auto Crafter","color":[134,99,63],"harvestType":"rock"},{"id":3166,"name":"Solar Panel","color":[62,153,228],"harvestType":"rock"},{"id":3170,"name":"_Solar Panel SE","color":[62,153,228],"harvestType":"rock"},{"id":3174,"name":"_Solar Panel NW","color":[62,153,228],"harvestType":"rock"},{"id":3178,"name":"_Solar Panel NE","color":[62,153,228],"harvestType":"rock"},{"id":3216,"name":"Auto Harvester","color":[138,93,73],"harvestType":"rock"},{"id":3217,"name":"Stalker Spawner Block","color":[58,82,101],"harvestType":"rock"},{"id":3218,"name":"Lunite Ore","color":[234,183,159],"harvestType":"rock"},{"id":3219,"name":"Block of Lunite","color":[210,23,117],"harvestType":"rock"},{"id":3240,"name":"Lunite Auto Crafter","color":[134,99,63],"harvestType":"rock"},{"id":3241,"name":"Lunite Auto Harvester","color":[186,70,81],"harvestType":"rock"},{"id":3242,"name":"Bowling Alley Floor","color":[40,40,41],"harvestType":"cuttable"},{"id":3243,"name":"Crone Spawner Block","color":[58,82,101],"harvestType":"rock"}]
+[
+  { "id": 2, "name": "Dirt", "color": [134, 93, 73], "harvestType": "granule" },
+  {
+    "id": 3,
+    "name": "Messy Dirt",
+    "color": [116, 76, 59],
+    "harvestType": "granule"
+  },
+  {
+    "id": 4,
+    "name": "Grass Block",
+    "color": [104, 163, 78],
+    "harvestType": "granule"
+  },
+  {
+    "id": 5,
+    "name": "Sand",
+    "color": [224, 212, 168],
+    "harvestType": "granule"
+  },
+  {
+    "id": 6,
+    "name": "Clay",
+    "color": [165, 175, 184],
+    "harvestType": "granule"
+  },
+  {
+    "id": 7,
+    "name": "Gravel",
+    "color": [126, 127, 128],
+    "harvestType": "granule"
+  },
+  {
+    "id": 8,
+    "name": "Snow",
+    "color": [230, 235, 235],
+    "harvestType": "granule"
+  },
+  {
+    "id": 9,
+    "name": "Maple Log",
+    "color": [129, 95, 58],
+    "harvestType": "wood"
+  },
+  {
+    "id": 10,
+    "name": "Pine Log",
+    "color": [66, 43, 24],
+    "harvestType": "wood"
+  },
+  {
+    "id": 11,
+    "name": "Plum Log",
+    "color": [93, 85, 76],
+    "harvestType": "wood"
+  },
+  {
+    "id": 12,
+    "name": "Cedar Log",
+    "color": [58, 44, 24],
+    "harvestType": "wood"
+  },
+  {
+    "id": 13,
+    "name": "Aspen Log",
+    "color": [188, 185, 161],
+    "harvestType": "wood"
+  },
+  {
+    "id": 14,
+    "name": "Jungle Log",
+    "color": [97, 78, 23],
+    "harvestType": "wood"
+  },
+  {
+    "id": 15,
+    "name": "Maple Wood Planks",
+    "color": [170, 137, 82],
+    "harvestType": "wood"
+  },
+  {
+    "id": 16,
+    "name": "Aspen Wood Planks",
+    "color": [193, 173, 123],
+    "harvestType": "wood"
+  },
+  {
+    "id": 17,
+    "name": "Plum Wood Planks",
+    "color": [168, 92, 46],
+    "harvestType": "wood"
+  },
+  {
+    "id": 18,
+    "name": "Jungle Wood Planks",
+    "color": [160, 118, 82],
+    "harvestType": "wood"
+  },
+  {
+    "id": 19,
+    "name": "Pine Wood Planks",
+    "color": [116, 85, 49],
+    "harvestType": "wood"
+  },
+  {
+    "id": 20,
+    "name": "Cedar Wood Planks",
+    "color": [76, 48, 23],
+    "harvestType": "wood"
+  },
+  {
+    "id": 21,
+    "name": "Barkless Maple Log",
+    "color": [168, 134, 81],
+    "harvestType": "wood"
+  },
+  {
+    "id": 22,
+    "name": "Barkless Aspen Log",
+    "color": [190, 169, 120],
+    "harvestType": "wood"
+  },
+  {
+    "id": 23,
+    "name": "Barkless Plum Log",
+    "color": [164, 88, 45],
+    "harvestType": "wood"
+  },
+  {
+    "id": 24,
+    "name": "Barkless Jungle Log",
+    "color": [158, 114, 79],
+    "harvestType": "wood"
+  },
+  {
+    "id": 25,
+    "name": "Barkless Pine Log",
+    "color": [115, 84, 48],
+    "harvestType": "wood"
+  },
+  {
+    "id": 26,
+    "name": "Barkless Cedar Log",
+    "color": [74, 46, 22],
+    "harvestType": "wood"
+  },
+  {
+    "id": 27,
+    "name": "free_placeholder2",
+    "color": [133, 129, 129],
+    "harvestType": "rock"
+  },
+  {
+    "id": 28,
+    "name": "Stone",
+    "color": [150, 147, 147],
+    "harvestType": "rock"
+  },
+  {
+    "id": 29,
+    "name": "Messy Stone",
+    "color": [133, 129, 129],
+    "harvestType": "rock"
+  },
+  {
+    "id": 30,
+    "name": "free_placeholder",
+    "color": [133, 129, 129],
+    "harvestType": "rock"
+  },
+  {
+    "id": 31,
+    "name": "Smooth Stone",
+    "color": [143, 139, 139],
+    "harvestType": "rock"
+  },
+  {
+    "id": 32,
+    "name": "Diorite",
+    "color": [210, 206, 202],
+    "harvestType": "rock"
+  },
+  {
+    "id": 33,
+    "name": "Smooth Diorite",
+    "color": [200, 195, 191],
+    "harvestType": "rock"
+  },
+  {
+    "id": 34,
+    "name": "Andesite",
+    "color": [131, 135, 139],
+    "harvestType": "rock"
+  },
+  {
+    "id": 35,
+    "name": "Smooth Andesite",
+    "color": [127, 130, 135],
+    "harvestType": "rock"
+  },
+  {
+    "id": 36,
+    "name": "Granite",
+    "color": [156, 106, 88],
+    "harvestType": "rock"
+  },
+  {
+    "id": 37,
+    "name": "Smooth Granite",
+    "color": [154, 103, 84],
+    "harvestType": "rock"
+  },
+  {
+    "id": 38,
+    "name": "Sandstone",
+    "color": [221, 206, 163],
+    "harvestType": "rock"
+  },
+  {
+    "id": 39,
+    "name": "Yellowstone",
+    "color": [234, 234, 168],
+    "harvestType": "rock"
+  },
+  {
+    "id": 40,
+    "name": "Coal Ore",
+    "color": [115, 113, 113],
+    "harvestType": "rock"
+  },
+  {
+    "id": 41,
+    "name": "Iron Ore",
+    "color": [159, 152, 144],
+    "harvestType": "rock"
+  },
+  {
+    "id": 42,
+    "name": "Gold Ore",
+    "color": [165, 151, 111],
+    "harvestType": "rock"
+  },
+  {
+    "id": 43,
+    "name": "Lapis Lazuli Ore",
+    "color": [116, 119, 135],
+    "harvestType": "rock"
+  },
+  {
+    "id": 44,
+    "name": "Emerald Ore",
+    "color": [118, 159, 129],
+    "harvestType": "rock"
+  },
+  {
+    "id": 45,
+    "name": "Diamond Ore",
+    "color": [119, 160, 151],
+    "harvestType": "rock"
+  },
+  {
+    "id": 46,
+    "name": "Block of Coal",
+    "color": [19, 19, 19],
+    "harvestType": "rock"
+  },
+  {
+    "id": 47,
+    "name": "Block of Iron",
+    "color": [235, 232, 227],
+    "harvestType": "rock"
+  },
+  {
+    "id": 48,
+    "name": "Block of Gold",
+    "color": [248, 209, 63],
+    "harvestType": "rock"
+  },
+  {
+    "id": 49,
+    "name": "Block of Lapis Lazuli",
+    "color": [48, 111, 186],
+    "harvestType": "rock"
+  },
+  {
+    "id": 50,
+    "name": "Block of Emerald",
+    "color": [45, 217, 106],
+    "harvestType": "rock"
+  },
+  {
+    "id": 51,
+    "name": "White Wool",
+    "color": [239, 240, 241],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 52,
+    "name": "Orange Wool",
+    "color": [246, 123, 25],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 53,
+    "name": "Magenta Wool",
+    "color": [195, 70, 182],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 54,
+    "name": "Light Blue Wool",
+    "color": [57, 184, 223],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 55,
+    "name": "Yellow Wool",
+    "color": [252, 203, 50],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 56,
+    "name": "Lime Wool",
+    "color": [122, 192, 27],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 57,
+    "name": "Pink Wool",
+    "color": [248, 146, 178],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 58,
+    "name": "Gray Wool",
+    "color": [67, 73, 77],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 59,
+    "name": "Light Gray Wool",
+    "color": [147, 147, 141],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 60,
+    "name": "Cyan Wool",
+    "color": [23, 144, 149],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 61,
+    "name": "Purple Wool",
+    "color": [127, 42, 176],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 62,
+    "name": "Blue Wool",
+    "color": [55, 61, 160],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 63,
+    "name": "Brown Wool",
+    "color": [118, 75, 42],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 64,
+    "name": "Green Wool",
+    "color": [89, 113, 30],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 65,
+    "name": "Red Wool",
+    "color": [166, 40, 35],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 66,
+    "name": "Black Wool",
+    "color": [24, 25, 30],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 67,
+    "name": "Baked Clay",
+    "color": [150, 93, 67],
+    "harvestType": "rock"
+  },
+  {
+    "id": 68,
+    "name": "White Baked Clay",
+    "color": [210, 177, 161],
+    "harvestType": "rock"
+  },
+  {
+    "id": 69,
+    "name": "Orange Baked Clay",
+    "color": [162, 83, 38],
+    "harvestType": "rock"
+  },
+  {
+    "id": 70,
+    "name": "Magenta Baked Clay",
+    "color": [149, 87, 108],
+    "harvestType": "rock"
+  },
+  {
+    "id": 71,
+    "name": "Light Blue Baked Clay",
+    "color": [112, 108, 138],
+    "harvestType": "rock"
+  },
+  {
+    "id": 72,
+    "name": "Yellow Baked Clay",
+    "color": [186, 133, 36],
+    "harvestType": "rock"
+  },
+  {
+    "id": 73,
+    "name": "Lime Baked Clay",
+    "color": [103, 117, 53],
+    "harvestType": "rock"
+  },
+  {
+    "id": 74,
+    "name": "Pink Baked Clay",
+    "color": [162, 78, 79],
+    "harvestType": "rock"
+  },
+  {
+    "id": 75,
+    "name": "Gray Baked Clay",
+    "color": [58, 42, 36],
+    "harvestType": "rock"
+  },
+  {
+    "id": 76,
+    "name": "Light Gray Baked Clay",
+    "color": [135, 107, 98],
+    "harvestType": "rock"
+  },
+  {
+    "id": 77,
+    "name": "Cyan Baked Clay",
+    "color": [85, 90, 90],
+    "harvestType": "rock"
+  },
+  {
+    "id": 78,
+    "name": "Purple Baked Clay",
+    "color": [118, 70, 86],
+    "harvestType": "rock"
+  },
+  {
+    "id": 79,
+    "name": "Blue Baked Clay",
+    "color": [73, 59, 91],
+    "harvestType": "rock"
+  },
+  {
+    "id": 80,
+    "name": "Brown Baked Clay",
+    "color": [77, 50, 35],
+    "harvestType": "rock"
+  },
+  {
+    "id": 81,
+    "name": "Green Baked Clay",
+    "color": [75, 82, 40],
+    "harvestType": "rock"
+  },
+  {
+    "id": 82,
+    "name": "Red Baked Clay",
+    "color": [142, 61, 47],
+    "harvestType": "rock"
+  },
+  {
+    "id": 83,
+    "name": "Black Baked Clay",
+    "color": [36, 21, 15],
+    "harvestType": "rock"
+  },
+  {
+    "id": 84,
+    "name": "Gray Concrete",
+    "color": [55, 58, 62],
+    "harvestType": "rock"
+  },
+  {
+    "id": 85,
+    "name": "Light Gray Concrete",
+    "color": [125, 125, 115],
+    "harvestType": "rock"
+  },
+  {
+    "id": 86,
+    "name": "Black Concrete",
+    "color": [9, 11, 16],
+    "harvestType": "rock"
+  },
+  {
+    "id": 87,
+    "name": "Blue Concrete",
+    "color": [45, 47, 144],
+    "harvestType": "rock"
+  },
+  {
+    "id": 88,
+    "name": "Brown Concrete",
+    "color": [97, 60, 32],
+    "harvestType": "rock"
+  },
+  {
+    "id": 89,
+    "name": "Cyan Concrete",
+    "color": [21, 119, 135],
+    "harvestType": "rock"
+  },
+  {
+    "id": 90,
+    "name": "Light Blue Concrete",
+    "color": [37, 138, 200],
+    "harvestType": "rock"
+  },
+  {
+    "id": 91,
+    "name": "Lime Concrete",
+    "color": [95, 170, 25],
+    "harvestType": "rock"
+  },
+  {
+    "id": 92,
+    "name": "Magenta Concrete",
+    "color": [169, 48, 159],
+    "harvestType": "rock"
+  },
+  {
+    "id": 93,
+    "name": "Orange Concrete",
+    "color": [225, 97, 0],
+    "harvestType": "rock"
+  },
+  {
+    "id": 94,
+    "name": "Pink Concrete",
+    "color": [214, 101, 143],
+    "harvestType": "rock"
+  },
+  {
+    "id": 95,
+    "name": "Purple Concrete",
+    "color": [101, 32, 157],
+    "harvestType": "rock"
+  },
+  {
+    "id": 96,
+    "name": "Red Concrete",
+    "color": [143, 33, 33],
+    "harvestType": "rock"
+  },
+  {
+    "id": 97,
+    "name": "White Concrete",
+    "color": [208, 214, 215],
+    "harvestType": "rock"
+  },
+  {
+    "id": 98,
+    "name": "Green Concrete",
+    "color": [73, 91, 36],
+    "harvestType": "rock"
+  },
+  {
+    "id": 99,
+    "name": "Yellow Concrete",
+    "color": [242, 176, 21],
+    "harvestType": "rock"
+  },
+  {
+    "id": 100,
+    "name": "Pine Leaves",
+    "color": [26, 48, 14],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 101,
+    "name": "Aspen Leaves",
+    "color": [52, 122, 24],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 102,
+    "name": "Maple Leaves",
+    "color": [50, 92, 30],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 103,
+    "name": "Jungle Leaves",
+    "color": [41, 136, 12],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 104,
+    "name": "Pumpkin_placeholder",
+    "color": [198, 133, 45],
+    "harvestType": "wood"
+  },
+  {
+    "id": 105,
+    "name": "Watermelon",
+    "color": [129, 157, 29],
+    "harvestType": "wood"
+  },
+  {
+    "id": 106,
+    "name": "Glass",
+    "color": [185, 223, 221],
+    "harvestType": "wood"
+  },
+  {
+    "id": 107,
+    "name": "Black Glass",
+    "color": [28, 29, 32],
+    "harvestType": "wood"
+  },
+  {
+    "id": 108,
+    "name": "Blue Glass",
+    "color": [97, 133, 213],
+    "harvestType": "wood"
+  },
+  {
+    "id": 109,
+    "name": "Brown Glass",
+    "color": [153, 119, 94],
+    "harvestType": "wood"
+  },
+  {
+    "id": 110,
+    "name": "Cyan Glass",
+    "color": [41, 140, 157],
+    "harvestType": "wood"
+  },
+  {
+    "id": 111,
+    "name": "Gray Glass",
+    "color": [91, 95, 99],
+    "harvestType": "wood"
+  },
+  {
+    "id": 112,
+    "name": "Light Gray Glass",
+    "color": [172, 177, 182],
+    "harvestType": "wood"
+  },
+  {
+    "id": 113,
+    "name": "Green Glass",
+    "color": [106, 125, 66],
+    "harvestType": "wood"
+  },
+  {
+    "id": 114,
+    "name": "Light Blue Glass",
+    "color": [127, 184, 244],
+    "harvestType": "wood"
+  },
+  {
+    "id": 115,
+    "name": "Lime Glass",
+    "color": [181, 226, 139],
+    "harvestType": "wood"
+  },
+  {
+    "id": 116,
+    "name": "Magenta Glass",
+    "color": [186, 73, 177],
+    "harvestType": "wood"
+  },
+  {
+    "id": 117,
+    "name": "Orange Glass",
+    "color": [245, 148, 75],
+    "harvestType": "wood"
+  },
+  {
+    "id": 118,
+    "name": "Pink Glass",
+    "color": [242, 150, 184],
+    "harvestType": "wood"
+  },
+  {
+    "id": 119,
+    "name": "Purple Glass",
+    "color": [123, 61, 173],
+    "harvestType": "wood"
+  },
+  {
+    "id": 120,
+    "name": "Red Glass",
+    "color": [169, 59, 59],
+    "harvestType": "wood"
+  },
+  {
+    "id": 121,
+    "name": "White Glass",
+    "color": [241, 242, 243],
+    "harvestType": "wood"
+  },
+  {
+    "id": 122,
+    "name": "Yellow Glass",
+    "color": [249, 211, 122],
+    "harvestType": "wood"
+  },
+  {
+    "id": 123,
+    "name": "UNUSED BLOCK TYPE",
+    "color": [161, 161, 161],
+    "harvestType": "wood"
+  },
+  {
+    "id": 124,
+    "name": "Dim Lamp On",
+    "color": [125, 85, 45],
+    "harvestType": "rock"
+  },
+  {
+    "id": 125,
+    "name": "Dim Lamp Off",
+    "color": [75, 39, 11],
+    "harvestType": "rock"
+  },
+  {
+    "id": 126,
+    "name": "Water",
+    "color": [127, 127, 204],
+    "harvestType": "rock"
+  },
+  {
+    "id": 128,
+    "name": "Bricks",
+    "color": [150, 99, 84],
+    "harvestType": "rock"
+  },
+  {
+    "id": 129,
+    "name": "Stone Bricks",
+    "color": [135, 131, 131],
+    "harvestType": "rock"
+  },
+  {
+    "id": 130,
+    "name": "Dark Red Brick",
+    "color": [68, 34, 39],
+    "harvestType": "rock"
+  },
+  {
+    "id": 131,
+    "name": "Dark Red Stone",
+    "color": [101, 46, 43],
+    "harvestType": "rock"
+  },
+  {
+    "id": 132,
+    "name": "Block of Quartz",
+    "color": [251, 248, 239],
+    "harvestType": "rock"
+  },
+  {
+    "id": 133,
+    "name": "Chiseled Block of Quartz",
+    "color": [241, 235, 224],
+    "harvestType": "rock"
+  },
+  {
+    "id": 134,
+    "name": "Engraved Stone",
+    "color": [125, 121, 121],
+    "harvestType": "rock"
+  },
+  {
+    "id": 135,
+    "name": "Mossy Stone Bricks",
+    "color": [128, 129, 118],
+    "harvestType": "rock"
+  },
+  {
+    "id": 136,
+    "name": "Cracked Stone Bricks",
+    "color": [132, 128, 128],
+    "harvestType": "rock"
+  },
+  {
+    "id": 137,
+    "name": "Smooth Sandstone",
+    "color": [230, 222, 177],
+    "harvestType": "rock"
+  },
+  {
+    "id": 138,
+    "name": "Engraved Sandstone",
+    "color": [222, 208, 164],
+    "harvestType": "rock"
+  },
+  { "id": 139, "name": "Ice", "color": [140, 209, 254], "harvestType": "rock" },
+  {
+    "id": 140,
+    "name": "Obsidian",
+    "color": [29, 18, 44],
+    "harvestType": "rock"
+  },
+  {
+    "id": 141,
+    "name": "Hay Bale",
+    "color": [181, 132, 33],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 142,
+    "name": "Sponge",
+    "color": [186, 175, 56],
+    "harvestType": "granule"
+  },
+  {
+    "id": 143,
+    "name": "Beacon",
+    "color": [210, 243, 251],
+    "harvestType": "rock"
+  },
+  {
+    "id": 145,
+    "name": "Golden Decoration",
+    "color": [179, 138, 92],
+    "harvestType": "rock"
+  },
+  {
+    "id": 146,
+    "name": "Moonstone Explosive",
+    "color": [208, 215, 243],
+    "harvestType": "cuttable"
+  },
+  { "id": 147, "name": "Bedrock", "color": [34, 34, 35] },
+  {
+    "id": 148,
+    "name": "Smooth Double Stone Slab",
+    "color": [143, 139, 139],
+    "harvestType": "rock"
+  },
+  {
+    "id": 164,
+    "name": "Furnace",
+    "color": [107, 103, 103],
+    "harvestType": "rock"
+  },
+  {
+    "id": 168,
+    "name": "Workbench",
+    "color": [134, 99, 63],
+    "harvestType": "wood"
+  },
+  {
+    "id": 172,
+    "name": "Block of Diamond",
+    "color": [70, 211, 203],
+    "harvestType": "rock"
+  },
+  {
+    "id": 204,
+    "name": "Chest",
+    "color": [197, 154, 94],
+    "harvestType": "wood"
+  },
+  {
+    "id": 212,
+    "name": "Protector",
+    "color": [128, 136, 133],
+    "harvestType": "rock"
+  },
+  {
+    "id": 213,
+    "name": "Fat Cactus",
+    "color": [104, 165, 46],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 214,
+    "name": "Dry Fat Cactus",
+    "color": [140, 96, 40],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 228,
+    "name": "White Planks",
+    "color": [246, 238, 223],
+    "harvestType": "wood"
+  },
+  {
+    "id": 229,
+    "name": "Orange Planks",
+    "color": [205, 122, 64],
+    "harvestType": "wood"
+  },
+  {
+    "id": 230,
+    "name": "Magenta Planks",
+    "color": [153, 76, 123],
+    "harvestType": "wood"
+  },
+  {
+    "id": 231,
+    "name": "Light Blue Planks",
+    "color": [81, 149, 166],
+    "harvestType": "wood"
+  },
+  {
+    "id": 232,
+    "name": "Yellow Planks",
+    "color": [214, 178, 79],
+    "harvestType": "wood"
+  },
+  {
+    "id": 233,
+    "name": "Lime Planks",
+    "color": [150, 169, 83],
+    "harvestType": "wood"
+  },
+  {
+    "id": 234,
+    "name": "Pink Planks",
+    "color": [192, 120, 146],
+    "harvestType": "wood"
+  },
+  {
+    "id": 235,
+    "name": "Gray Planks",
+    "color": [79, 75, 69],
+    "harvestType": "wood"
+  },
+  {
+    "id": 236,
+    "name": "Light Gray Planks",
+    "color": [148, 142, 133],
+    "harvestType": "wood"
+  },
+  {
+    "id": 237,
+    "name": "Cyan Planks",
+    "color": [101, 167, 167],
+    "harvestType": "wood"
+  },
+  {
+    "id": 238,
+    "name": "Purple Planks",
+    "color": [145, 108, 167],
+    "harvestType": "wood"
+  },
+  {
+    "id": 239,
+    "name": "Blue Planks",
+    "color": [83, 90, 169],
+    "harvestType": "wood"
+  },
+  {
+    "id": 240,
+    "name": "Brown Planks",
+    "color": [127, 91, 63],
+    "harvestType": "wood"
+  },
+  {
+    "id": 241,
+    "name": "Green Planks",
+    "color": [99, 113, 57],
+    "harvestType": "wood"
+  },
+  {
+    "id": 242,
+    "name": "Red Planks",
+    "color": [167, 70, 66],
+    "harvestType": "wood"
+  },
+  {
+    "id": 243,
+    "name": "Black Planks",
+    "color": [36, 33, 29],
+    "harvestType": "wood"
+  },
+  {
+    "id": 244,
+    "name": "Artisan Bench",
+    "color": [117, 92, 78],
+    "harvestType": "wood"
+  },
+  {
+    "id": 245,
+    "name": "White Ceramic",
+    "color": [187, 216, 200],
+    "harvestType": "rock"
+  },
+  {
+    "id": 249,
+    "name": "Orange Ceramic",
+    "color": [159, 153, 96],
+    "harvestType": "rock"
+  },
+  {
+    "id": 253,
+    "name": "Magenta Ceramic",
+    "color": [215, 115, 196],
+    "harvestType": "rock"
+  },
+  {
+    "id": 257,
+    "name": "Light Blue Ceramic",
+    "color": [112, 168, 209],
+    "harvestType": "rock"
+  },
+  {
+    "id": 261,
+    "name": "Yellow Ceramic",
+    "color": [234, 193, 88],
+    "harvestType": "rock"
+  },
+  {
+    "id": 265,
+    "name": "Lime Ceramic",
+    "color": [163, 202, 66],
+    "harvestType": "rock"
+  },
+  {
+    "id": 269,
+    "name": "Pink Ceramic",
+    "color": [234, 160, 184],
+    "harvestType": "rock"
+  },
+  {
+    "id": 273,
+    "name": "Gray Ceramic",
+    "color": [85, 92, 95],
+    "harvestType": "rock"
+  },
+  {
+    "id": 277,
+    "name": "Light Gray Ceramic",
+    "color": [126, 158, 160],
+    "harvestType": "rock"
+  },
+  {
+    "id": 281,
+    "name": "Cyan Ceramic",
+    "color": [60, 120, 128],
+    "harvestType": "rock"
+  },
+  {
+    "id": 285,
+    "name": "Purple Ceramic",
+    "color": [106, 48, 145],
+    "harvestType": "rock"
+  },
+  {
+    "id": 289,
+    "name": "Blue Ceramic",
+    "color": [36, 70, 133],
+    "harvestType": "rock"
+  },
+  {
+    "id": 293,
+    "name": "Brown Ceramic",
+    "color": [135, 114, 93],
+    "harvestType": "rock"
+  },
+  {
+    "id": 297,
+    "name": "Green Ceramic",
+    "color": [116, 140, 68],
+    "harvestType": "rock"
+  },
+  {
+    "id": 301,
+    "name": "Red Ceramic",
+    "color": [182, 60, 53],
+    "harvestType": "rock"
+  },
+  {
+    "id": 305,
+    "name": "Black Ceramic",
+    "color": [77, 29, 31],
+    "harvestType": "rock"
+  },
+  {
+    "id": 317,
+    "name": "Tilled Soil",
+    "color": [160, 108, 71],
+    "harvestType": "granule"
+  },
+  {
+    "id": 318,
+    "name": "Bread Block",
+    "color": [178, 122, 33],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 319,
+    "name": "ReservedBread BlockRotation1",
+    "color": [178, 122, 33],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 320,
+    "name": "ReservedBread BlockRotation2",
+    "color": [178, 122, 33],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 321,
+    "name": "ReservedBread BlockRotation3",
+    "color": [178, 122, 33],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 322,
+    "name": "Mossy Messy Stone",
+    "color": [121, 124, 109],
+    "harvestType": "rock"
+  },
+  {
+    "id": 464,
+    "name": "Apple Block",
+    "color": [175, 40, 37],
+    "harvestType": "wood"
+  },
+  {
+    "id": 465,
+    "name": "Moonstone Ore",
+    "color": [159, 157, 164],
+    "harvestType": "rock"
+  },
+  {
+    "id": 466,
+    "name": "Moonstone Chest",
+    "color": [215, 221, 245],
+    "harvestType": "rock"
+  },
+  {
+    "id": 470,
+    "name": "Block of Moonstone",
+    "color": [195, 205, 238],
+    "harvestType": "rock"
+  },
+  { "id": 471, "name": "Magma", "color": [152, 67, 32], "harvestType": "rock" },
+  {
+    "id": 472,
+    "name": "Useless Soil",
+    "color": [101, 67, 24],
+    "harvestType": "granule"
+  },
+  {
+    "id": 473,
+    "name": "Marked Sandstone",
+    "color": [225, 214, 170],
+    "harvestType": "rock"
+  },
+  {
+    "id": 474,
+    "name": "Red Sandstone",
+    "color": [195, 97, 32],
+    "harvestType": "rock"
+  },
+  {
+    "id": 475,
+    "name": "Smooth Red Sandstone",
+    "color": [203, 110, 36],
+    "harvestType": "rock"
+  },
+  {
+    "id": 476,
+    "name": "Engraved Red Sandstone",
+    "color": [196, 101, 33],
+    "harvestType": "rock"
+  },
+  {
+    "id": 477,
+    "name": "Marked Red Sandstone",
+    "color": [199, 105, 34],
+    "harvestType": "rock"
+  },
+  {
+    "id": 478,
+    "name": "Green Stone",
+    "color": [108, 167, 148],
+    "harvestType": "rock"
+  },
+  {
+    "id": 479,
+    "name": "Green Bricks",
+    "color": [83, 159, 144],
+    "harvestType": "rock"
+  },
+  {
+    "id": 480,
+    "name": "Dark Green Bricks",
+    "color": [53, 119, 97],
+    "harvestType": "rock"
+  },
+  {
+    "id": 481,
+    "name": "Sandstone Bricks",
+    "color": [223, 211, 167],
+    "harvestType": "rock"
+  },
+  {
+    "id": 482,
+    "name": "Engraved Diorite",
+    "color": [232, 230, 225],
+    "harvestType": "rock"
+  },
+  {
+    "id": 483,
+    "name": "Diorite Bricks",
+    "color": [231, 229, 224],
+    "harvestType": "rock"
+  },
+  {
+    "id": 484,
+    "name": "Engraved Andesite",
+    "color": [112, 116, 122],
+    "harvestType": "rock"
+  },
+  {
+    "id": 485,
+    "name": "Andesite Bricks",
+    "color": [120, 124, 129],
+    "harvestType": "rock"
+  },
+  {
+    "id": 486,
+    "name": "Engraved Granite",
+    "color": [145, 95, 78],
+    "harvestType": "rock"
+  },
+  {
+    "id": 487,
+    "name": "Granite Bricks",
+    "color": [148, 98, 80],
+    "harvestType": "rock"
+  },
+  {
+    "id": 488,
+    "name": "Ice Bricks",
+    "color": [167, 217, 247],
+    "harvestType": "rock"
+  },
+  {
+    "id": 489,
+    "name": "Placeholder Packed Ice",
+    "color": [167, 217, 247],
+    "harvestType": "rock"
+  },
+  {
+    "id": 490,
+    "name": "Placeholder Blue Ice",
+    "color": [167, 217, 247],
+    "harvestType": "rock"
+  },
+  {
+    "id": 491,
+    "name": "Plum Leaves",
+    "color": [52, 103, 45],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 492,
+    "name": "Cedar Leaves",
+    "color": [33, 61, 18],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 493,
+    "name": "Palm Leaves",
+    "color": [80, 164, 54],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 502,
+    "name": "Palm Log",
+    "color": [95, 88, 46],
+    "harvestType": "wood"
+  },
+  {
+    "id": 504,
+    "name": "Palm Wood Planks",
+    "color": [210, 150, 71],
+    "harvestType": "wood"
+  },
+  {
+    "id": 650,
+    "name": "Red Sand",
+    "color": [198, 101, 33],
+    "harvestType": "granule"
+  },
+  {
+    "id": 651,
+    "name": "Red Sandstone Bricks",
+    "color": [197, 103, 34],
+    "harvestType": "rock"
+  },
+  {
+    "id": 652,
+    "name": "Rocky Dirt",
+    "color": [131, 95, 78],
+    "harvestType": "granule"
+  },
+  {
+    "id": 653,
+    "name": "Autumn Maple Leaves",
+    "color": [191, 114, 32],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 907,
+    "name": "Plum Block",
+    "color": [154, 31, 154],
+    "harvestType": "wood"
+  },
+  {
+    "id": 908,
+    "name": "Coconut Block",
+    "color": [129, 96, 43],
+    "harvestType": "wood"
+  },
+  {
+    "id": 909,
+    "name": "Pear Log",
+    "color": [101, 101, 101],
+    "harvestType": "wood"
+  },
+  {
+    "id": 910,
+    "name": "Pear Wood Planks",
+    "color": [133, 102, 91],
+    "harvestType": "wood"
+  },
+  {
+    "id": 911,
+    "name": "Pear Leaves",
+    "color": [232, 242, 218],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 945,
+    "name": "Pear Block",
+    "color": [248, 233, 77],
+    "harvestType": "wood"
+  },
+  {
+    "id": 946,
+    "name": "Compressed Messy Stone",
+    "color": [101, 101, 101],
+    "harvestType": "rock"
+  },
+  {
+    "id": 947,
+    "name": "Extra Compressed Messy Stone",
+    "color": [94, 94, 94],
+    "harvestType": "rock"
+  },
+  {
+    "id": 948,
+    "name": "Super Compressed Messy Stone",
+    "color": [71, 71, 71],
+    "harvestType": "rock"
+  },
+  {
+    "id": 949,
+    "name": "Hyper Compressed Messy Stone",
+    "color": [66, 66, 66],
+    "harvestType": "rock"
+  },
+  {
+    "id": 950,
+    "name": "Ultra Compressed Messy Stone",
+    "color": [57, 57, 57],
+    "harvestType": "rock"
+  },
+  {
+    "id": 951,
+    "name": "Mega Compressed Messy Stone",
+    "color": [49, 49, 49],
+    "harvestType": "rock"
+  },
+  {
+    "id": 958,
+    "name": "Brown Mushroom Block",
+    "color": [193, 151, 119],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 959,
+    "name": "Red Mushroom Block",
+    "color": [227, 82, 67],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 960,
+    "name": "Mushroom Stem",
+    "color": [204, 197, 186],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 961,
+    "name": "Fireball Block",
+    "color": [245, 103, 27],
+    "harvestType": "rock"
+  },
+  {
+    "id": 962,
+    "name": "Iceball Block",
+    "color": [27, 163, 244],
+    "harvestType": "rock"
+  },
+  {
+    "id": 975,
+    "name": "Pumpkin",
+    "color": [182, 102, 17],
+    "harvestType": "wood"
+  },
+  {
+    "id": 976,
+    "name": "Carved Pumpkin",
+    "color": [182, 102, 17],
+    "harvestType": "wood"
+  },
+  {
+    "id": 980,
+    "name": "Jack o'Lantern",
+    "color": [182, 102, 17],
+    "harvestType": "wood"
+  },
+  {
+    "id": 990,
+    "name": "Melon",
+    "color": [241, 234, 99],
+    "harvestType": "wood"
+  },
+  {
+    "id": 991,
+    "name": "Iron Watermelon",
+    "color": [233, 230, 225],
+    "harvestType": "rock"
+  },
+  {
+    "id": 992,
+    "name": "Patterned Black Glass",
+    "color": [29, 38, 45],
+    "harvestType": "wood"
+  },
+  {
+    "id": 993,
+    "name": "Patterned Blue Glass",
+    "color": [85, 125, 212],
+    "harvestType": "wood"
+  },
+  {
+    "id": 994,
+    "name": "Patterned Brown Glass",
+    "color": [123, 82, 51],
+    "harvestType": "wood"
+  },
+  {
+    "id": 995,
+    "name": "Patterned Cyan Glass",
+    "color": [83, 167, 181],
+    "harvestType": "wood"
+  },
+  {
+    "id": 996,
+    "name": "Patterned Gray Glass",
+    "color": [82, 87, 90],
+    "harvestType": "wood"
+  },
+  {
+    "id": 997,
+    "name": "Patterned Light Gray Glass",
+    "color": [173, 177, 184],
+    "harvestType": "wood"
+  },
+  {
+    "id": 998,
+    "name": "Patterned Green Glass",
+    "color": [119, 127, 51],
+    "harvestType": "wood"
+  },
+  {
+    "id": 999,
+    "name": "Patterned Light Blue Glass",
+    "color": [144, 193, 245],
+    "harvestType": "wood"
+  },
+  {
+    "id": 1000,
+    "name": "Patterned Lime Glass",
+    "color": [157, 215, 102],
+    "harvestType": "wood"
+  },
+  {
+    "id": 1001,
+    "name": "Patterned Magenta Glass",
+    "color": [167, 72, 160],
+    "harvestType": "wood"
+  },
+  {
+    "id": 1002,
+    "name": "Patterned Orange Glass",
+    "color": [229, 124, 43],
+    "harvestType": "wood"
+  },
+  {
+    "id": 1003,
+    "name": "Patterned Pink Glass",
+    "color": [245, 174, 200],
+    "harvestType": "wood"
+  },
+  {
+    "id": 1004,
+    "name": "Patterned Purple Glass",
+    "color": [111, 50, 161],
+    "harvestType": "wood"
+  },
+  {
+    "id": 1005,
+    "name": "Patterned Red Glass",
+    "color": [178, 58, 58],
+    "harvestType": "wood"
+  },
+  {
+    "id": 1006,
+    "name": "Patterned White Glass",
+    "color": [247, 247, 248],
+    "harvestType": "wood"
+  },
+  {
+    "id": 1007,
+    "name": "Patterned Yellow Glass",
+    "color": [249, 208, 112],
+    "harvestType": "wood"
+  },
+  {
+    "id": 1056,
+    "name": "Bookshelf",
+    "color": [170, 137, 82],
+    "harvestType": "wood"
+  },
+  {
+    "id": 1060,
+    "name": "Empty Bookshelf",
+    "color": [170, 137, 82],
+    "harvestType": "wood"
+  },
+  {
+    "id": 1084,
+    "name": "Mailbox",
+    "color": [118, 82, 54],
+    "harvestType": "wood"
+  },
+  {
+    "id": 1108,
+    "name": "Tribe Protector",
+    "color": [140, 136, 137],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1111,
+    "name": "Faction Protector",
+    "color": [208, 87, 84],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1112,
+    "name": "Barkless Palm Log",
+    "color": [207, 148, 70],
+    "harvestType": "wood"
+  },
+  {
+    "id": 1113,
+    "name": "Barkless Pear Log",
+    "color": [129, 97, 86],
+    "harvestType": "wood"
+  },
+  {
+    "id": 1122,
+    "name": "Mystery Block",
+    "color": [237, 200, 91],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1123,
+    "name": "Rocket",
+    "color": [76, 111, 59],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1124,
+    "name": "Super Rocket",
+    "color": [113, 63, 47],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1221,
+    "name": "Grenade",
+    "color": [63, 66, 125],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1222,
+    "name": "Cherry Log",
+    "color": [58, 37, 49],
+    "harvestType": "wood"
+  },
+  {
+    "id": 1223,
+    "name": "Barkless Cherry Log",
+    "color": [227, 184, 181],
+    "harvestType": "wood"
+  },
+  {
+    "id": 1225,
+    "name": "Cherry Wood Planks",
+    "color": [229, 187, 183],
+    "harvestType": "wood"
+  },
+  {
+    "id": 1226,
+    "name": "Cherry Leaves",
+    "color": [246, 186, 220],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1270,
+    "name": "Cherry Block",
+    "color": [230, 79, 155],
+    "harvestType": "wood"
+  },
+  {
+    "id": 1271,
+    "name": "Bouncy Bomb Block",
+    "color": [196, 59, 196],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1272,
+    "name": "Obby Rocket",
+    "color": [76, 111, 59],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1279,
+    "name": "Corn Block",
+    "color": [240, 213, 35],
+    "harvestType": "wood"
+  },
+  {
+    "id": 1291,
+    "name": "Loot Chest",
+    "color": [197, 154, 94],
+    "harvestType": "wood"
+  },
+  {
+    "id": 1295,
+    "name": "Melting Ice",
+    "color": [140, 209, 254],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1297,
+    "name": "Yellow Paintball Explosive",
+    "color": [226, 176, 66],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1298,
+    "name": "White Paintball Explosive",
+    "color": [200, 205, 211],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1299,
+    "name": "Red Paintball Explosive",
+    "color": [151, 69, 75],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1300,
+    "name": "Purple Paintball Explosive",
+    "color": [120, 68, 168],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1301,
+    "name": "Pink Paintball Explosive",
+    "color": [205, 120, 157],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1302,
+    "name": "Orange Paintball Explosive",
+    "color": [213, 117, 50],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1303,
+    "name": "Magenta Paintball Explosive",
+    "color": [171, 80, 169],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1304,
+    "name": "Lime Paintball Explosive",
+    "color": [115, 172, 69],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1305,
+    "name": "Light Gray Paintball Explosive",
+    "color": [138, 138, 136],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1306,
+    "name": "Light Blue Paintball Explosive",
+    "color": [72, 148, 200],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1307,
+    "name": "Green Paintball Explosive",
+    "color": [99, 113, 77],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1308,
+    "name": "Gray Paintball Explosive",
+    "color": [85, 88, 96],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1309,
+    "name": "Cyan Paintball Explosive",
+    "color": [60, 134, 151],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1310,
+    "name": "Brown Paintball Explosive",
+    "color": [117, 89, 74],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1311,
+    "name": "Blue Paintball Explosive",
+    "color": [78, 80, 158],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1312,
+    "name": "Black Paintball Explosive",
+    "color": [51, 53, 62],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1313,
+    "name": "Yellow Quick Paintball Explosive",
+    "color": [214, 172, 62],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1314,
+    "name": "White Quick Paintball Explosive",
+    "color": [198, 200, 205],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1315,
+    "name": "Red Quick Paintball Explosive",
+    "color": [146, 56, 58],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1316,
+    "name": "Purple Quick Paintball Explosive",
+    "color": [115, 56, 158],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1317,
+    "name": "Pink Quick Paintball Explosive",
+    "color": [202, 122, 154],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1318,
+    "name": "Orange Quick Paintball Explosive",
+    "color": [206, 113, 43],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1319,
+    "name": "Magenta Quick Paintball Explosive",
+    "color": [166, 73, 161],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1320,
+    "name": "Lime Quick Paintball Explosive",
+    "color": [112, 166, 52],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1321,
+    "name": "Light Gray Quick Paintball Explosive",
+    "color": [131, 131, 129],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1322,
+    "name": "Light Blue Quick Paintball Explosive",
+    "color": [63, 150, 192],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1323,
+    "name": "Green Quick Paintball Explosive",
+    "color": [90, 106, 58],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1324,
+    "name": "Gray Quick Paintball Explosive",
+    "color": [75, 79, 85],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1325,
+    "name": "Cyan Quick Paintball Explosive",
+    "color": [45, 129, 139],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1326,
+    "name": "Brown Quick Paintball Explosive",
+    "color": [110, 80, 60],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1327,
+    "name": "Blue Quick Paintball Explosive",
+    "color": [66, 70, 147],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1328,
+    "name": "Black Quick Paintball Explosive",
+    "color": [41, 43, 50],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1329,
+    "name": "Yellow Seeking Paintball Explosive",
+    "color": [244, 183, 29],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1330,
+    "name": "White Seeking Paintball Explosive",
+    "color": [216, 221, 222],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1331,
+    "name": "Red Seeking Paintball Explosive",
+    "color": [149, 35, 34],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1332,
+    "name": "Purple Seeking Paintball Explosive",
+    "color": [108, 34, 162],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1333,
+    "name": "Pink Seeking Paintball Explosive",
+    "color": [222, 111, 151],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1334,
+    "name": "Orange Seeking Paintball Explosive",
+    "color": [230, 104, 6],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1335,
+    "name": "Magenta Seeking Paintball Explosive",
+    "color": [175, 53, 165],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1336,
+    "name": "Lime Seeking Paintball Explosive",
+    "color": [102, 176, 26],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1337,
+    "name": "Light Gray Seeking Paintball Explosive",
+    "color": [130, 130, 121],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1338,
+    "name": "Light Blue Seeking Paintball Explosive",
+    "color": [41, 149, 206],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1339,
+    "name": "Green Seeking Paintball Explosive",
+    "color": [77, 96, 35],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1340,
+    "name": "Gray Seeking Paintball Explosive",
+    "color": [58, 62, 66],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1341,
+    "name": "Cyan Seeking Paintball Explosive",
+    "color": [22, 125, 139],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1342,
+    "name": "Brown Seeking Paintball Explosive",
+    "color": [102, 64, 34],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1343,
+    "name": "Blue Seeking Paintball Explosive",
+    "color": [47, 51, 148],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1344,
+    "name": "Black Seeking Paintball Explosive",
+    "color": [13, 15, 20],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1345,
+    "name": "Yellow Sticky Paintball Explosive",
+    "color": [232, 183, 72],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1346,
+    "name": "White Sticky Paintball Explosive",
+    "color": [211, 207, 193],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1347,
+    "name": "Red Sticky Paintball Explosive",
+    "color": [170, 94, 79],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1348,
+    "name": "Purple Sticky Paintball Explosive",
+    "color": [144, 93, 157],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1349,
+    "name": "Pink Sticky Paintball Explosive",
+    "color": [215, 136, 148],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1350,
+    "name": "Orange Sticky Paintball Explosive",
+    "color": [221, 134, 59],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1351,
+    "name": "Magenta Sticky Paintball Explosive",
+    "color": [186, 103, 158],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1352,
+    "name": "Lime Sticky Paintball Explosive",
+    "color": [140, 180, 74],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1353,
+    "name": "Light Gray Sticky Paintball Explosive",
+    "color": [159, 151, 130],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1354,
+    "name": "Light Blue Sticky Paintball Explosive",
+    "color": [104, 160, 184],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1355,
+    "name": "Green Sticky Paintball Explosive",
+    "color": [126, 130, 81],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1356,
+    "name": "Gray Sticky Paintball Explosive",
+    "color": [115, 110, 97],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1357,
+    "name": "Cyan Sticky Paintball Explosive",
+    "color": [94, 148, 143],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1358,
+    "name": "Brown Sticky Paintball Explosive",
+    "color": [141, 111, 79],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1359,
+    "name": "Blue Sticky Paintball Explosive",
+    "color": [109, 103, 149],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1360,
+    "name": "Black Sticky Paintball Explosive",
+    "color": [86, 80, 69],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1491,
+    "name": "Lava",
+    "color": [242, 102, 12],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1494,
+    "name": "Chili Pepper Block",
+    "color": [197, 16, 14],
+    "harvestType": "wood"
+  },
+  { "id": 1510, "name": "Code Block", "color": [168, 118, 94] },
+  {
+    "id": 1511,
+    "name": "Toxin Ball Block",
+    "color": [13, 155, 87],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1512,
+    "name": "Spawn Block (Yellow)",
+    "color": [255, 215, 82],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1513,
+    "name": "Spawn Block (White)",
+    "color": [236, 236, 236],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1514,
+    "name": "Spawn Block (Red)",
+    "color": [198, 67, 60],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1515,
+    "name": "Spawn Block (Purple)",
+    "color": [157, 68, 203],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1516,
+    "name": "Spawn Block (Pink)",
+    "color": [254, 164, 194],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1517,
+    "name": "Spawn Block (Orange)",
+    "color": [253, 145, 54],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1518,
+    "name": "Spawn Block (Magenta)",
+    "color": [218, 94, 204],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1519,
+    "name": "Spawn Block (Lime)",
+    "color": [152, 217, 52],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1520,
+    "name": "Spawn Block (Light Gray)",
+    "color": [175, 175, 171],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1521,
+    "name": "Spawn Block (Light Blue)",
+    "color": [78, 204, 237],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1522,
+    "name": "Spawn Block (Green)",
+    "color": [112, 136, 49],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1523,
+    "name": "Spawn Block (Gray)",
+    "color": [85, 91, 95],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1524,
+    "name": "Spawn Block (Cyan)",
+    "color": [46, 174, 175],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1525,
+    "name": "Spawn Block (Brown)",
+    "color": [142, 98, 61],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1526,
+    "name": "Spawn Block (Blue)",
+    "color": [81, 91, 189],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1527,
+    "name": "Spawn Block (Black)",
+    "color": [39, 41, 46],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1576,
+    "name": "Checkpoint Block",
+    "color": [98, 235, 70],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1580,
+    "name": "Custom Lobby Block",
+    "color": [0, 72, 72],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1584,
+    "name": "Generator Spawn Block (Red)",
+    "color": [211, 80, 73],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1585,
+    "name": "Generator Spawn Block (Blue)",
+    "color": [94, 104, 202],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1586,
+    "name": "Generator Spawn Block (Lime)",
+    "color": [162, 225, 64],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1587,
+    "name": "Generator Spawn Block (Yellow)",
+    "color": [255, 217, 92],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1588,
+    "name": "Generator Spawn Block (Cyan)",
+    "color": [58, 186, 187],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1589,
+    "name": "Generator Spawn Block (White)",
+    "color": [228, 228, 228],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1590,
+    "name": "Generator Spawn Block (Pink)",
+    "color": [254, 169, 198],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1591,
+    "name": "Generator Spawn Block (Gray)",
+    "color": [91, 97, 101],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1592,
+    "name": "Trader Shop Spawn Block",
+    "color": [100, 80, 43],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1596,
+    "name": "Wizard Shop Spawn Block",
+    "color": [98, 136, 150],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1600,
+    "name": "Generator Spawn Block (Diamond)",
+    "color": [48, 201, 197],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1601,
+    "name": "Generator Spawn Block (Moonstone)",
+    "color": [197, 209, 234],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1602,
+    "name": "Generator Spawn Block (Ore)",
+    "color": [127, 140, 133],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1603,
+    "name": "Goal Block (Red)",
+    "color": [151, 69, 75],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1604,
+    "name": "Goal Block (Blue)",
+    "color": [78, 80, 158],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1605,
+    "name": "Finish Block",
+    "color": [128, 128, 128],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1606,
+    "name": "Drop Location Block",
+    "color": [55, 55, 114],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1607,
+    "name": "Obby Death Block",
+    "color": [149, 40, 40],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1608,
+    "name": "Obby Absorb Block",
+    "color": [38, 38, 38],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1609,
+    "name": "Obby Absorb Death Block",
+    "color": [64, 40, 148],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1610,
+    "name": "Bone Block",
+    "color": [207, 214, 205],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1611,
+    "name": "Pig Spawner Block",
+    "color": [58, 82, 101],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1612,
+    "name": "Cow Spawner Block",
+    "color": [58, 82, 101],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1613,
+    "name": "Sheep Spawner Block",
+    "color": [58, 82, 101],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1614,
+    "name": "Cave Golem Spawner Block",
+    "color": [58, 82, 101],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1615,
+    "name": "Draugr Zombie Spawner Block",
+    "color": [58, 82, 101],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1616,
+    "name": "Draugr Skeleton Spawner Block",
+    "color": [58, 82, 101],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1617,
+    "name": "Empty Spawner Block",
+    "color": [58, 82, 101],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1618,
+    "name": "Frost Golem Spawner Block",
+    "color": [58, 82, 101],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1619,
+    "name": "Frost Zombie Spawner Block",
+    "color": [58, 82, 101],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1620,
+    "name": "Frost Skeleton Spawner Block",
+    "color": [58, 82, 101],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1621,
+    "name": "Snowy Messy Stone",
+    "color": [161, 166, 167],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1628,
+    "name": "Draugr Knight Spawner Block",
+    "color": [58, 82, 101],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1629,
+    "name": "Packed Snow",
+    "color": [187, 218, 218],
+    "harvestType": "granule"
+  },
+  {
+    "id": 1630,
+    "name": "Carved Messy Stone",
+    "color": [121, 116, 116],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1632,
+    "name": "Spectral Log",
+    "color": [58, 57, 81],
+    "harvestType": "wood"
+  },
+  {
+    "id": 1633,
+    "name": "Barkless Spectral Log",
+    "color": [50, 148, 139],
+    "harvestType": "wood"
+  },
+  {
+    "id": 1635,
+    "name": "Spectral Wood Planks",
+    "color": [51, 151, 141],
+    "harvestType": "wood"
+  },
+  {
+    "id": 1636,
+    "name": "Spectral Leaves",
+    "color": [24, 141, 144],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 1694,
+    "name": "Pine Grass Block",
+    "color": [92, 153, 107],
+    "harvestType": "granule"
+  },
+  {
+    "id": 1704,
+    "name": "Pine Cone Block",
+    "color": [144, 99, 50],
+    "harvestType": "wood"
+  },
+  {
+    "id": 1705,
+    "name": "Wolf Spawner Block",
+    "color": [58, 82, 101],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1706,
+    "name": "Bear Spawner Block",
+    "color": [58, 82, 101],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1707,
+    "name": "Deer Spawner Block",
+    "color": [58, 82, 101],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1708,
+    "name": "Stag Spawner Block",
+    "color": [58, 82, 101],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1717,
+    "name": "Gold Watermelon Stag Spawner Block",
+    "color": [58, 82, 101],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1722,
+    "name": "Chalk",
+    "color": [248, 250, 250],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1723,
+    "name": "Yellow Chalk",
+    "color": [252, 244, 180],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1724,
+    "name": "White Chalk",
+    "color": [225, 247, 248],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1725,
+    "name": "Red Chalk",
+    "color": [242, 133, 135],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1726,
+    "name": "Purple Chalk",
+    "color": [192, 155, 200],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1727,
+    "name": "Pink Chalk",
+    "color": [247, 173, 198],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1728,
+    "name": "Orange Chalk",
+    "color": [242, 160, 133],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1729,
+    "name": "Magenta Chalk",
+    "color": [230, 163, 224],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1730,
+    "name": "Lime Chalk",
+    "color": [172, 210, 149],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1731,
+    "name": "Light Gray Chalk",
+    "color": [182, 206, 204],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1732,
+    "name": "Light Blue Chalk",
+    "color": [160, 196, 231],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1733,
+    "name": "Green Chalk",
+    "color": [158, 179, 147],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1734,
+    "name": "Gray Chalk",
+    "color": [111, 128, 138],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1735,
+    "name": "Cyan Chalk",
+    "color": [172, 219, 210],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1736,
+    "name": "Brown Chalk",
+    "color": [182, 164, 151],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1737,
+    "name": "Blue Chalk",
+    "color": [131, 167, 222],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1738,
+    "name": "Black Chalk",
+    "color": [43, 57, 67],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1739,
+    "name": "Yellow Chalk Bricks",
+    "color": [243, 234, 157],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1740,
+    "name": "White Chalk Bricks",
+    "color": [209, 235, 236],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1741,
+    "name": "Red Chalk Bricks",
+    "color": [239, 116, 118],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1742,
+    "name": "Purple Chalk Bricks",
+    "color": [181, 140, 190],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1743,
+    "name": "Pink Chalk Bricks",
+    "color": [243, 157, 186],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1744,
+    "name": "Orange Chalk Bricks",
+    "color": [239, 146, 115],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1745,
+    "name": "Magenta Chalk Bricks",
+    "color": [224, 146, 217],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1746,
+    "name": "Lime Chalk Bricks",
+    "color": [160, 203, 134],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1747,
+    "name": "Light Gray Chalk Bricks",
+    "color": [169, 193, 191],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1748,
+    "name": "Light Blue Chalk Bricks",
+    "color": [142, 185, 227],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1749,
+    "name": "Green Chalk Bricks",
+    "color": [145, 169, 133],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1750,
+    "name": "Gray Chalk Bricks",
+    "color": [101, 117, 127],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1751,
+    "name": "Cyan Chalk Bricks",
+    "color": [153, 213, 201],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1752,
+    "name": "Brown Chalk Bricks",
+    "color": [172, 150, 134],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1753,
+    "name": "Blue Chalk Bricks",
+    "color": [113, 154, 217],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1754,
+    "name": "Black Chalk Bricks",
+    "color": [37, 50, 59],
+    "harvestType": "rock"
+  },
+  {
+    "id": 1955,
+    "name": "Jungle Grass Block",
+    "color": [16, 148, 9],
+    "harvestType": "granule"
+  },
+  {
+    "id": 1965,
+    "name": "Mango Log",
+    "color": [84, 76, 73],
+    "harvestType": "wood"
+  },
+  {
+    "id": 1966,
+    "name": "Barkless Mango Log",
+    "color": [205, 191, 106],
+    "harvestType": "wood"
+  },
+  {
+    "id": 1968,
+    "name": "Mango Wood Planks",
+    "color": [207, 193, 109],
+    "harvestType": "wood"
+  },
+  {
+    "id": 1969,
+    "name": "Mango Leaves",
+    "color": [43, 115, 59],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 2007,
+    "name": "Mango Block",
+    "color": [238, 136, 28],
+    "harvestType": "wood"
+  },
+  {
+    "id": 2008,
+    "name": "Banana Block",
+    "color": [235, 218, 123],
+    "harvestType": "wood"
+  },
+  {
+    "id": 2017,
+    "name": "Gorilla Spawner Block",
+    "color": [58, 82, 101],
+    "harvestType": "rock"
+  },
+  {
+    "id": 2018,
+    "name": "Wildcat Spawner Block",
+    "color": [58, 82, 101],
+    "harvestType": "rock"
+  },
+  {
+    "id": 2019,
+    "name": "Fruity Maple Leaves",
+    "color": [95, 74, 31],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 2020,
+    "name": "Pine Cone Leaves",
+    "color": [44, 50, 19],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 2021,
+    "name": "Fruity Plum Leaves",
+    "color": [66, 92, 60],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 2022,
+    "name": "Fruity Palm Leaves",
+    "color": [92, 143, 50],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 2023,
+    "name": "Fruity Pear Leaves",
+    "color": [233, 233, 182],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 2024,
+    "name": "Fruity Cherry Leaves",
+    "color": [246, 170, 211],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 2025,
+    "name": "Fruity Mango Leaves",
+    "color": [91, 128, 58],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 2026,
+    "name": "Draugr Huntress Spawner Block",
+    "color": [58, 82, 101],
+    "harvestType": "rock"
+  },
+  {
+    "id": 2027,
+    "name": "Magma Golem Spawner Block",
+    "color": [58, 82, 101],
+    "harvestType": "rock"
+  },
+  {
+    "id": 2028,
+    "name": "Black Portal",
+    "color": [31, 33, 40],
+    "harvestType": "rock"
+  },
+  {
+    "id": 2029,
+    "name": "Blue Portal",
+    "color": [68, 74, 170],
+    "harvestType": "rock"
+  },
+  {
+    "id": 2030,
+    "name": "Brown Portal",
+    "color": [132, 86, 46],
+    "harvestType": "rock"
+  },
+  {
+    "id": 2031,
+    "name": "Cyan Portal",
+    "color": [25, 161, 163],
+    "harvestType": "rock"
+  },
+  {
+    "id": 2032,
+    "name": "Gray Portal",
+    "color": [75, 82, 86],
+    "harvestType": "rock"
+  },
+  {
+    "id": 2033,
+    "name": "Green Portal",
+    "color": [95, 129, 34],
+    "harvestType": "rock"
+  },
+  {
+    "id": 2034,
+    "name": "Grey Portal",
+    "color": [75, 82, 86],
+    "harvestType": "rock"
+  },
+  {
+    "id": 2035,
+    "name": "Light Blue Portal",
+    "color": [76, 186, 219],
+    "harvestType": "rock"
+  },
+  {
+    "id": 2036,
+    "name": "Light Gray Portal",
+    "color": [151, 152, 145],
+    "harvestType": "rock"
+  },
+  {
+    "id": 2037,
+    "name": "Lime Portal",
+    "color": [119, 198, 40],
+    "harvestType": "rock"
+  },
+  {
+    "id": 2038,
+    "name": "Magenta Portal",
+    "color": [193, 84, 181],
+    "harvestType": "rock"
+  },
+  {
+    "id": 2039,
+    "name": "Orange Portal",
+    "color": [242, 133, 41],
+    "harvestType": "rock"
+  },
+  {
+    "id": 2040,
+    "name": "Pink Portal",
+    "color": [244, 155, 180],
+    "harvestType": "rock"
+  },
+  {
+    "id": 2041,
+    "name": "Purple Portal",
+    "color": [138, 55, 184],
+    "harvestType": "rock"
+  },
+  {
+    "id": 2042,
+    "name": "Red Portal",
+    "color": [217, 101, 76],
+    "harvestType": "rock"
+  },
+  {
+    "id": 2043,
+    "name": "White Portal",
+    "color": [218, 222, 223],
+    "harvestType": "rock"
+  },
+  {
+    "id": 2044,
+    "name": "Yellow Portal",
+    "color": [249, 207, 58],
+    "harvestType": "rock"
+  },
+  {
+    "id": 2045,
+    "name": "Leather Block",
+    "color": [116, 82, 59],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 2046,
+    "name": "Horse Spawner Block",
+    "color": [58, 82, 101],
+    "harvestType": "rock"
+  },
+  {
+    "id": 2085,
+    "name": "Autumn Aspen Leaves",
+    "color": [245, 208, 9],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 2088,
+    "name": "Iron Chest",
+    "color": [231, 228, 223],
+    "harvestType": "rock"
+  },
+  {
+    "id": 2092,
+    "name": "Crate",
+    "color": [171, 137, 83],
+    "harvestType": "wood"
+  },
+  {
+    "id": 2093,
+    "name": "Carrot Block",
+    "color": [205, 118, 14],
+    "harvestType": "wood"
+  },
+  {
+    "id": 2095,
+    "name": "Potato Block",
+    "color": [189, 144, 67],
+    "harvestType": "wood"
+  },
+  {
+    "id": 2097,
+    "name": "Beetroot Block",
+    "color": [128, 60, 62],
+    "harvestType": "wood"
+  },
+  {
+    "id": 2507,
+    "name": "Spirit Golem Spawner Block",
+    "color": [58, 82, 101],
+    "harvestType": "rock"
+  },
+  {
+    "id": 2508,
+    "name": "Spirit Wolf Spawner Block",
+    "color": [58, 82, 101],
+    "harvestType": "rock"
+  },
+  {
+    "id": 2509,
+    "name": "Spirit Bear Spawner Block",
+    "color": [58, 82, 101],
+    "harvestType": "rock"
+  },
+  {
+    "id": 2510,
+    "name": "Spirit Stag Spawner Block",
+    "color": [58, 82, 101],
+    "harvestType": "rock"
+  },
+  {
+    "id": 2511,
+    "name": "Spirit Gorilla Spawner Block",
+    "color": [58, 82, 101],
+    "harvestType": "rock"
+  },
+  {
+    "id": 2512,
+    "name": "Fertilised Soil",
+    "color": [143, 89, 49],
+    "harvestType": "granule"
+  },
+  {
+    "id": 2625,
+    "name": "Hollow Crate",
+    "color": [171, 137, 83],
+    "harvestType": "wood"
+  },
+  {
+    "id": 2626,
+    "name": "Draugr Warper Spawner Block",
+    "color": [58, 82, 101],
+    "harvestType": "rock"
+  },
+  {
+    "id": 2627,
+    "name": "Radar",
+    "color": [111, 139, 79],
+    "harvestType": "rock"
+  },
+  {
+    "id": 2631,
+    "name": "_Radar Back",
+    "color": [103, 109, 118],
+    "harvestType": "rock"
+  },
+  {
+    "id": 2639,
+    "name": "Inactive Radar",
+    "color": [142, 145, 150],
+    "harvestType": "rock"
+  },
+  {
+    "id": 2643,
+    "name": "_Inactive Radar Back",
+    "color": [103, 109, 118],
+    "harvestType": "rock"
+  },
+  {
+    "id": 2651,
+    "name": "Active Radar",
+    "color": [118, 145, 81],
+    "harvestType": "rock"
+  },
+  {
+    "id": 2655,
+    "name": "_Active Radar Back",
+    "color": [103, 109, 118],
+    "harvestType": "rock"
+  },
+  {
+    "id": 2663,
+    "name": "Lucky Block",
+    "color": [252, 197, 104],
+    "harvestType": "rock"
+  },
+  {
+    "id": 2664,
+    "name": "Ultra Lucky Block",
+    "color": [89, 214, 207],
+    "harvestType": "rock"
+  },
+  {
+    "id": 2679,
+    "name": "Frost Wraith Spawner Block",
+    "color": [58, 82, 101],
+    "harvestType": "rock"
+  },
+  {
+    "id": 2680,
+    "name": "Draugr Reaver Spawner Block",
+    "color": [58, 82, 101],
+    "harvestType": "rock"
+  },
+  {
+    "id": 2780,
+    "name": "Weapon Lucky Block",
+    "color": [219, 78, 78],
+    "harvestType": "rock"
+  },
+  {
+    "id": 3009,
+    "name": "Yellow Neon",
+    "color": [254, 213, 78],
+    "harvestType": "granule"
+  },
+  {
+    "id": 3010,
+    "name": "White Neon",
+    "color": [249, 250, 250],
+    "harvestType": "granule"
+  },
+  {
+    "id": 3011,
+    "name": "Red Neon",
+    "color": [182, 45, 38],
+    "harvestType": "granule"
+  },
+  {
+    "id": 3012,
+    "name": "Purple Neon",
+    "color": [138, 46, 189],
+    "harvestType": "granule"
+  },
+  {
+    "id": 3013,
+    "name": "Pink Neon",
+    "color": [253, 163, 192],
+    "harvestType": "granule"
+  },
+  {
+    "id": 3014,
+    "name": "Orange Neon",
+    "color": [252, 138, 44],
+    "harvestType": "granule"
+  },
+  {
+    "id": 3015,
+    "name": "Magenta Neon",
+    "color": [208, 76, 194],
+    "harvestType": "granule"
+  },
+  {
+    "id": 3016,
+    "name": "Lime Neon",
+    "color": [135, 207, 30],
+    "harvestType": "granule"
+  },
+  {
+    "id": 3017,
+    "name": "Light Gray Neon",
+    "color": [160, 160, 154],
+    "harvestType": "granule"
+  },
+  {
+    "id": 3018,
+    "name": "Light Blue Neon",
+    "color": [62, 199, 238],
+    "harvestType": "granule"
+  },
+  {
+    "id": 3019,
+    "name": "Green Neon",
+    "color": [99, 125, 33],
+    "harvestType": "granule"
+  },
+  {
+    "id": 3020,
+    "name": "Gray Neon",
+    "color": [78, 84, 89],
+    "harvestType": "granule"
+  },
+  {
+    "id": 3021,
+    "name": "Cyan Neon",
+    "color": [26, 158, 160],
+    "harvestType": "granule"
+  },
+  {
+    "id": 3022,
+    "name": "Brown Neon",
+    "color": [131, 84, 46],
+    "harvestType": "granule"
+  },
+  {
+    "id": 3023,
+    "name": "Blue Neon",
+    "color": [62, 71, 176],
+    "harvestType": "granule"
+  },
+  {
+    "id": 3024,
+    "name": "Black Neon",
+    "color": [34, 36, 42],
+    "harvestType": "granule"
+  },
+  {
+    "id": 3049,
+    "name": "Gun Lucky Block",
+    "color": [219, 78, 78],
+    "harvestType": "rock"
+  },
+  {
+    "id": 3050,
+    "name": "Ghost Chest",
+    "color": [120, 120, 120],
+    "harvestType": "wood"
+  },
+  {
+    "id": 3051,
+    "name": "Ghost Lucky Block",
+    "color": [152, 152, 152],
+    "harvestType": "rock"
+  },
+  {
+    "id": 3052,
+    "name": "Ghost Mystery Block",
+    "color": [150, 150, 150],
+    "harvestType": "rock"
+  },
+  {
+    "id": 3054,
+    "name": "Pet Lucky Block",
+    "color": [247, 125, 181],
+    "harvestType": "rock"
+  },
+  {
+    "id": 3071,
+    "name": "Overgrown Grass Block",
+    "color": [104, 163, 78],
+    "harvestType": "granule"
+  },
+  {
+    "id": 3072,
+    "name": "Overgrown Pine Grass Block",
+    "color": [92, 153, 107],
+    "harvestType": "granule"
+  },
+  {
+    "id": 3073,
+    "name": "Overgrown Jungle Grass Block",
+    "color": [16, 148, 9],
+    "harvestType": "granule"
+  },
+  {
+    "id": 3074,
+    "name": "Smoke Block",
+    "color": [122, 124, 137],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 3117,
+    "name": "Auto Crafter",
+    "color": [134, 99, 63],
+    "harvestType": "rock"
+  },
+  {
+    "id": 3166,
+    "name": "Solar Panel",
+    "color": [62, 153, 228],
+    "harvestType": "rock"
+  },
+  {
+    "id": 3170,
+    "name": "_Solar Panel SE",
+    "color": [62, 153, 228],
+    "harvestType": "rock"
+  },
+  {
+    "id": 3174,
+    "name": "_Solar Panel NW",
+    "color": [62, 153, 228],
+    "harvestType": "rock"
+  },
+  {
+    "id": 3178,
+    "name": "_Solar Panel NE",
+    "color": [62, 153, 228],
+    "harvestType": "rock"
+  },
+  {
+    "id": 3216,
+    "name": "Auto Harvester",
+    "color": [138, 93, 73],
+    "harvestType": "rock"
+  },
+  {
+    "id": 3217,
+    "name": "Stalker Spawner Block",
+    "color": [58, 82, 101],
+    "harvestType": "rock"
+  },
+  {
+    "id": 3218,
+    "name": "Lunite Ore",
+    "color": [234, 183, 159],
+    "harvestType": "rock"
+  },
+  {
+    "id": 3219,
+    "name": "Block of Lunite",
+    "color": [210, 23, 117],
+    "harvestType": "rock"
+  },
+  {
+    "id": 3240,
+    "name": "Lunite Auto Crafter",
+    "color": [134, 99, 63],
+    "harvestType": "rock"
+  },
+  {
+    "id": 3241,
+    "name": "Lunite Auto Harvester",
+    "color": [186, 70, 81],
+    "harvestType": "rock"
+  },
+  {
+    "id": 3242,
+    "name": "Bowling Alley Floor",
+    "color": [40, 40, 41],
+    "harvestType": "cuttable"
+  },
+  {
+    "id": 3243,
+    "name": "Crone Spawner Block",
+    "color": [58, 82, 101],
+    "harvestType": "rock"
+  }
+]

@@ -32,7 +32,7 @@ export function exportSchematic(g: EditorGrid): { totalBlocks: number; dimension
 
 // Project format: lossless editor save (block ids + heights), distinct from .bloxdschem.
 interface ProjectJson {
-	format: "bloxd-schem-editor-project"
+	format: "pixd-project"
 	version: 1
 	name: string
 	width: number
@@ -43,7 +43,7 @@ interface ProjectJson {
 
 export function saveProject(g: EditorGrid): void {
 	const project: ProjectJson = {
-		format: "bloxd-schem-editor-project",
+		format: "pixd-project",
 		version: 1,
 		name: g.name,
 		width: g.width,
@@ -51,12 +51,12 @@ export function saveProject(g: EditorGrid): void {
 		ids: Array.from(g.ids),
 		heights: Array.from(g.heights),
 	}
-	triggerDownload(new Blob([JSON.stringify(project)], { type: "application/json" }), `${sanitizeFilename(g.name)}.bsep.json`)
+	triggerDownload(new Blob([JSON.stringify(project)], { type: "application/json" }), `${sanitizeFilename(g.name)}.pixd.json`)
 }
 
 export function parseProject(text: string): EditorGrid {
 	const p = JSON.parse(text) as ProjectJson
-	if (p.format !== "bloxd-schem-editor-project") throw new Error("Not a schem-editor project file")
+	if (p.format !== "pixd-project") throw new Error("Not a Pixd project file")
 	const g = makeGrid(p.width, p.depth, p.name)
 	g.ids.set(p.ids.slice(0, g.ids.length))
 	g.heights.set(p.heights.slice(0, g.heights.length))

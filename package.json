@@ -1,9 +1,9 @@
 {
-  "name": "bloxd-schem-editor",
+  "name": "pixd",
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "description": "MS-Paint-style grid editor that exports .bloxdschem files for bloxd map testing.",
+  "description": "Pixd — MS-Paint-style grid editor that exports .bloxdschem files for bloxd map testing.",
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
