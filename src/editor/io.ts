@@ -1,5 +1,5 @@
 import { buildSchematic, type GridModel } from "../schem/bloxdSchem"
-import { type EditorGrid, makeGrid } from "./types"
+import { type EditorGrid, makeGrid, MAX_DIM, MIN_DIM } from "./types"
 
 function sanitizeFilename(name: string): string {
 	return (name.trim() || "schematic").replace(/[^a-z0-9_\-]+/gi, "_")
@@ -54,10 +54,21 @@ export function saveProject(g: EditorGrid): void {
 	triggerDownload(new Blob([JSON.stringify(project)], { type: "application/json" }), `${sanitizeFilename(g.name)}.pixd.json`)
 }
 
+function validDim(n: unknown, label: string): number {
+	if (typeof n !== "number" || !Number.isInteger(n) || n < MIN_DIM || n > MAX_DIM) {
+		throw new Error(`Invalid ${label} in project file (expected an integer ${MIN_DIM}–${MAX_DIM}, got ${String(n)})`)
+	}
+	return n
+}
+
 export function parseProject(text: string): EditorGrid {
 	const p = JSON.parse(text) as ProjectJson
-	if (p.format !== "pixd-project") throw new Error("Not a Pixd project file")
-	const g = makeGrid(p.width, p.depth, p.name)
+	if (p?.format !== "pixd-project") throw new Error("Not a Pixd project file")
+	const width = validDim(p.width, "width")
+	const depth = validDim(p.depth, "depth")
+	if (!Array.isArray(p.ids) || !Array.isArray(p.heights)) throw new Error("Project file is missing block data")
+	const name = typeof p.name === "string" ? p.name : "schematic"
+	const g = makeGrid(width, depth, name)
 	g.ids.set(p.ids.slice(0, g.ids.length))
 	g.heights.set(p.heights.slice(0, g.heights.length))
 	return g

@@ -1,14 +1,3 @@
-// Curated Pixd block palette — HAND-MAINTAINED, not auto-generated.
-//
-// This is the single source of truth for what blocks the editor offers. Add an entry to
-// expose a block; remove one to hide it. Each entry maps a friendly editor label to a
-// real bloxd block id plus a texture and a fallback colour.
-//
-// `id` MUST match the block's id in bloxd's blockMetadata — it is what gets written into
-// the .bloxdschem file. Get ids/colours by inspecting blockMetadata (or the old full
-// dump). `color` is used for the canvas at small zoom and as a fallback while/if the
-// texture is unavailable. `textureUrl` is a bundled image under src/assets/textures.
-
 import dirtTexture from "../assets/textures/dirt.png"
 import stoneTexture from "../assets/textures/stone.png"
 import maplePlanksTexture from "../assets/textures/planks_maple.png"

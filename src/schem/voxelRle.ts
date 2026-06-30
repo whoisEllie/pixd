@@ -33,26 +33,27 @@ export function encodeRle(chunk: Uint16Array): Uint8Array {
 	return Uint8Array.from(out)
 }
 
-// Inverse — only used by tests / future import support.
+// Inverse — only used by tests / future import support. Throws on malformed input
+// (truncated varint, or a run that overflows the destination chunk).
 export function decodeRle(runs: Uint8Array, out: Uint16Array): Uint16Array {
 	const nruns = runs.length
 	let ptr = 0
 	let cptr = 0
-	while (ptr < nruns) {
-		let l = 0
+	const readVarint = (): number => {
+		let val = 0
 		let s = 0
 		while (ptr < nruns && runs[ptr] >= 128) {
-			l += (runs[ptr++] & 0x7f) << s
+			val += (runs[ptr++] & 0x7f) << s
 			s += 7
 		}
-		l += runs[ptr++] << s
-		let v = 0
-		s = 0
-		while (ptr < nruns && runs[ptr] >= 128) {
-			v += (runs[ptr++] & 0x7f) << s
-			s += 7
-		}
-		v += runs[ptr++] << s
+		if (ptr >= nruns) throw new Error("Malformed RLE: truncated varint")
+		val += runs[ptr++] << s
+		return val
+	}
+	while (ptr < nruns) {
+		const l = readVarint()
+		const v = readVarint()
+		if (cptr + l > out.length) throw new Error("Malformed RLE: run length exceeds chunk size")
 		for (let k = 0; k < l; k++) out[cptr++] = v
 	}
 	return out

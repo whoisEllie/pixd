@@ -23,7 +23,7 @@ export function paintLine(g: EditorGrid, x0: number, z0: number, x1: number, z1:
 	let err = dx - dz
 	let x = x0
 	let z = z0
-	for (;;) {
+	for (; ;) {
 		paintCell(g, x, z, id, height)
 		if (x === x1 && z === z1) break
 		const e2 = 2 * err
@@ -51,19 +51,31 @@ export function paintRect(g: EditorGrid, x0: number, z0: number, x1: number, z1:
 	}
 }
 
-// 4-connected flood fill over cells sharing the clicked cell's block id.
+// 4-connected flood fill over cells sharing the clicked cell's block id. Cells are marked
+// (and their fill value written) at push time, so each is enqueued exactly once.
 export function floodFill(g: EditorGrid, gx: number, gz: number, id: number, height: number): void {
 	if (!inBounds(g, gx, gz)) return
-	const target = g.ids[gz * g.width + gx]
+	const { width, depth } = g
+	const target = g.ids[gz * width + gx]
 	if (target === id) return
-	const stack: [number, number][] = [[gx, gz]]
-	while (stack.length) {
-		const [x, z] = stack.pop()!
-		if (!inBounds(g, x, z)) continue
-		const i = z * g.width + x
-		if (g.ids[i] !== target) continue
+	const fillH = id === 0 ? 0 : Math.max(1, height)
+	const stack: number[] = []
+	const mark = (x: number, z: number): void => {
+		if (x < 0 || z < 0 || x >= width || z >= depth) return
+		const i = z * width + x
+		if (g.ids[i] !== target) return
 		g.ids[i] = id
-		g.heights[i] = id === 0 ? 0 : Math.max(1, height)
-		stack.push([x + 1, z], [x - 1, z], [x, z + 1], [x, z - 1])
+		g.heights[i] = fillH
+		stack.push(i)
+	}
+	mark(gx, gz)
+	while (stack.length) {
+		const i = stack.pop()!
+		const x = i % width
+		const z = (i / width) | 0
+		mark(x + 1, z)
+		mark(x - 1, z)
+		mark(x, z + 1)
+		mark(x, z - 1)
 	}
 }

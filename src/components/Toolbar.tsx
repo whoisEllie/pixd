@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react"
-import type { Tool } from "../editor/types"
+import { MAX_DIM, MIN_DIM, type Tool } from "../editor/types"
 
 interface Props {
 	name: string
@@ -42,17 +42,18 @@ export function Toolbar(props: Props) {
 		setD(props.depth)
 	}, [props.width, props.depth])
 
-	const clampDim = (n: number) => Math.max(1, Math.min(512, Math.floor(n) || 1))
+	const clampDim = (n: number) => Math.max(MIN_DIM, Math.min(MAX_DIM, Math.floor(n) || 1))
 
 	return (
 		<header className="toolbar">
 			<div className="tb-group tb-brand">
+				<img className="tb-logo" src="/pixd-logo.png" alt="Pixd logo" width={24} height={24} />
 				<strong>Pixd</strong>
 			</div>
 
 			<div className="tb-group">
 				<label className="tb-field">
-					Name
+					<span>Name</span>
 					<input value={props.name} onChange={(e) => props.onName(e.target.value)} style={{ width: 130 }} />
 				</label>
 			</div>
@@ -72,7 +73,7 @@ export function Toolbar(props: Props) {
 
 			<div className="tb-group">
 				<label className="tb-field" title="Block height (extrudes upward along Y)">
-					Height
+					<span>Height</span>
 					<input
 						type="number"
 						min={1}
@@ -95,12 +96,12 @@ export function Toolbar(props: Props) {
 
 			<div className="tb-group">
 				<label className="tb-field">
-					W
-					<input type="number" min={1} max={512} value={w} onChange={(e) => setW(clampDim(Number(e.target.value)))} style={{ width: 56 }} />
+					<span>W</span>
+					<input type="number" min={MIN_DIM} max={MAX_DIM} value={w} onChange={(e) => setW(clampDim(Number(e.target.value)))} style={{ width: 56 }} />
 				</label>
 				<label className="tb-field">
-					D
-					<input type="number" min={1} max={512} value={d} onChange={(e) => setD(clampDim(Number(e.target.value)))} style={{ width: 56 }} />
+					<span>D</span>
+					<input type="number" min={MIN_DIM} max={MAX_DIM} value={d} onChange={(e) => setD(clampDim(Number(e.target.value)))} style={{ width: 56 }} />
 				</label>
 				<button onClick={() => props.onResize(clampDim(w), clampDim(d))} title="Resize, keeping artwork">
 					Resize

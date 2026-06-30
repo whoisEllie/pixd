@@ -6,13 +6,14 @@ import { Toolbar } from "./components/Toolbar"
 import { useEditor } from "./editor/useEditor"
 import type { Tool } from "./editor/types"
 import { exportSchematic, parseProject, saveProject } from "./editor/io"
+import { PALETTE } from "./schem/palette"
 
 const SHORTCUTS: Record<string, Tool> = { b: "pencil", e: "eraser", g: "fill", l: "line", r: "rect", f: "rectFill", i: "eyedropper" }
 
 export default function App() {
 	const ed = useEditor(32, 32)
 	const [tool, setTool] = useState<Tool>("pencil")
-	const [currentBlockId, setCurrentBlockId] = useState(2) // Dirt
+	const [currentBlockId, setCurrentBlockId] = useState(PALETTE[0]?.id ?? 0) // first palette block
 	const [brushHeight, setBrushHeight] = useState(1)
 	const [hover, setHover] = useState<HoverInfo | null>(null)
 	const [lastExport, setLastExport] = useState<string | null>(null)

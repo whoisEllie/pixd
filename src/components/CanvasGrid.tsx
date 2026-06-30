@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useLayoutEffect, useRef } from "react"
-import { cloneGrid, type EditorGrid, type Tool } from "../editor/types"
+import { cloneGrid, type EditorGrid, gridsEqual, type Tool } from "../editor/types"
 import { floodFill, paintCell, paintLine, paintRect } from "../editor/gridOps"
 import { PALETTE_BY_ID, rgbCss } from "../schem/palette"
 import { getBlockImage, onTexturesChanged } from "../schem/textures"
@@ -49,6 +49,9 @@ export function CanvasGrid({ grid, tool, currentBlockId, brushHeight, onCommit, 
 
 	// Live interaction state kept in refs so pointer handlers don't trigger re-renders.
 	const draftRef = useRef<EditorGrid | null>(null)
+	// The committed grid a stroke started from. line/rect previews reset to it each move
+	// (overwriting the draft's buffers in place) instead of cloning the whole grid per event.
+	const baseRef = useRef<EditorGrid | null>(null)
 	const interactRef = useRef<{ active: boolean; startX: number; startZ: number; lastX: number; lastZ: number } | null>(null)
 	const panRef = useRef<{ active: boolean; mx: number; my: number; px: number; py: number } | null>(null)
 	const spaceRef = useRef(false)
@@ -179,7 +182,19 @@ export function CanvasGrid({ grid, tool, currentBlockId, brushHeight, onCommit, 
 
 	useEffect(() => {
 		const onKey = (e: KeyboardEvent) => {
-			if (e.code === "Space") spaceRef.current = e.type === "keydown"
+			if (e.code !== "Space") return
+			// Always release pan on keyup, even if focus moved to an input mid-press —
+			// otherwise spaceRef stays stuck true and left-clicks pan instead of paint.
+			if (e.type !== "keydown") {
+				spaceRef.current = false
+				return
+			}
+			// On keydown, don't hijack Space while typing in a field (name/dimensions inputs).
+			const el = document.activeElement
+			if (el && (el.tagName === "INPUT" || el.tagName === "TEXTAREA")) return
+			// Stop the page from scrolling / a focused button from firing while panning.
+			e.preventDefault()
+			spaceRef.current = true
 		}
 		window.addEventListener("keydown", onKey)
 		window.addEventListener("keyup", onKey)
@@ -220,6 +235,7 @@ export function CanvasGrid({ grid, tool, currentBlockId, brushHeight, onCommit, 
 
 			const draft = cloneGrid(grid)
 			draftRef.current = draft
+			baseRef.current = grid // committed grid is immutable; safe to read for previews
 			interactRef.current = { active: true, startX: gx, startZ: gz, lastX: gx, lastZ: gz }
 			const { id, h } = applyVal()
 			if (tool === "pencil" || tool === "eraser") paintCell(draft, gx, gz, id, h)
@@ -255,12 +271,16 @@ export function CanvasGrid({ grid, tool, currentBlockId, brushHeight, onCommit, 
 					paintLine(draft, it.lastX, it.lastZ, gx, gz, id, h)
 					it.lastX = gx
 					it.lastZ = gz
-				} else if (tool === "line") {
-					draftRef.current = cloneGrid(grid)
-					paintLine(draftRef.current, it.startX, it.startZ, gx, gz, id, h)
-				} else if (tool === "rect" || tool === "rectFill") {
-					draftRef.current = cloneGrid(grid)
-					paintRect(draftRef.current, it.startX, it.startZ, gx, gz, id, h, tool === "rectFill")
+				} else if (tool === "line" || tool === "rect" || tool === "rectFill") {
+					// Each move re-previews from scratch: reset the draft to the base grid
+					// in place (no per-event allocation), then redraw the shape.
+					const base = baseRef.current
+					if (base) {
+						draft.ids.set(base.ids)
+						draft.heights.set(base.heights)
+						if (tool === "line") paintLine(draft, it.startX, it.startZ, gx, gz, id, h)
+						else paintRect(draft, it.startX, it.startZ, gx, gz, id, h, tool === "rectFill")
+					}
 				}
 			}
 			scheduleDraw()
@@ -274,12 +294,15 @@ export function CanvasGrid({ grid, tool, currentBlockId, brushHeight, onCommit, 
 			return
 		}
 		const draft = draftRef.current
-		if (interactRef.current?.active && draft) {
+		// Only record an undo step if the stroke actually changed something — a bare click
+		// with line/rect, or re-painting a cell with its current value, is a no-op.
+		if (interactRef.current?.active && draft && !gridsEqual(draft, grid)) {
 			onCommit(draft)
 		}
 		interactRef.current = null
 		draftRef.current = null
-	}, [onCommit])
+		baseRef.current = null
+	}, [onCommit, grid])
 
 	const onWheel = useCallback(
 		(e: React.WheelEvent) => {

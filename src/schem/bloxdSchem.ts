@@ -5,6 +5,10 @@ import { encodeRle } from "./voxelRle"
 export const CS = 32
 const SCHEM_VERSION = 4
 
+// Shared all-air chunk for empty cells inside the dimension box. encodeRle only reads it,
+// so one zero-filled buffer is safe to reuse for every empty chunk and across calls.
+const EMPTY_CHUNK = new Uint16Array(CS * CS * CS)
+
 // Editor grid in floor (top-down) orientation: cell (gx, gz) maps to world (gx, y, gz),
 // with the block extruded up the Y axis for `height` blocks. id 0 = air (empty cell).
 export interface GridCell {
@@ -87,7 +91,7 @@ export function buildSchematic(grid: GridModel): BuildResult {
 	for (let cx = 0; cx < cxMax; cx++) {
 		for (let cy = 0; cy < cyMax; cy++) {
 			for (let cz = 0; cz < czMax; cz++) {
-				const arr = chunks.get(chunkKey(cx, cy, cz)) ?? new Uint16Array(CS * CS * CS)
+				const arr = chunks.get(chunkKey(cx, cy, cz)) ?? EMPTY_CHUNK
 				chunkEntries.push({ x: cx, y: cy, z: cz, rle: encodeRle(arr) })
 			}
 		}
