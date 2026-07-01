@@ -278,14 +278,23 @@ input:focus {
 	filter: none;
 }
 
-.swatch:hover {
+/* Accent border + hard inset bevel (reuses the button light/dark) so the tile reads
+   raised on hover without lifting — stays consistent with the pixel-button look.
+   Scoped under .swatch-grid to out-specify button:hover, whose `background` shorthand
+   otherwise resets repeat/size and tiles the texture. */
+.swatch-grid .swatch:hover {
+	z-index: 2;
 	border-color: var(--accent);
+	box-shadow: inset 2px 2px 0 var(--btn-light), inset -2px -2px 0 var(--btn-dark);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
+/* Crisp square accent ring — no blur, keeps the retro edge. */
 .swatch.selected {
-	outline: 2px solid var(--accent);
-	outline-offset: 1px;
+	z-index: 1;
 	border-color: var(--accent);
+	box-shadow: 0 0 0 3px var(--accent);
 }
 
 .swatch-label {
